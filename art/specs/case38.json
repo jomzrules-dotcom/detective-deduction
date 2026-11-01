@@ -1,0 +1,36 @@
+{
+ "case": "case38",
+ "chars": [
+  {
+   "id": "sato",
+   "desc": "an adult woman named Ms. Sato, Japanese, light skin, black hair in a long braid, round glasses, a cosy grey cardigan, holding a book",
+   "moods": [
+    "happy",
+    "thinking"
+   ]
+  },
+  {
+   "id": "lena",
+   "desc": "an 11 year old girl named Lena, German, light skin, straight brown hair, blue pyjamas with stars, slippers",
+   "moods": [
+    "sad"
+   ]
+  },
+  {
+   "id": "ole",
+   "desc": "a 9 year old boy named Ole, German, light skin, messy blond hair, green pyjamas, a little chocolate on his chin",
+   "moods": [
+    "happy",
+    "sad"
+   ]
+  },
+  {
+   "id": "vance",
+   "desc": "an adult man toy collector named Mr. Vance, American, light skin, slicked grey hair, a thin face, striped blue-and-white pyjamas, a silk dressing gown",
+   "moods": [
+    "thinking"
+   ]
+  }
+ ],
+ "icons": []
+}

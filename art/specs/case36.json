@@ -1,0 +1,39 @@
+{
+ "case": "case36",
+ "bg": "A wide 16:9 view inside a vintage train observation car: huge curved windows all around, a big blue mountain lake outside on the left side, comfy armchairs facing the windows, small side tables, a stand with a golden lantern at the back, bright afternoon light.",
+ "chars": [
+  {
+   "id": "tanaka",
+   "desc": "an older woman named Mrs. Tanaka, Japanese, light skin, neat grey hair, a lavender cardigan, an open handbag on her arm",
+   "moods": [
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "rocha",
+   "desc": "an adult man named Mr. Rocha, Brazilian, tan skin, curly black hair, a yellow shirt, a big camera phone held up",
+   "moods": [
+    "happy",
+    "thinking"
+   ]
+  },
+  {
+   "id": "wren",
+   "desc": "an adult woman birdwatcher named Ms. Wren, English, pale skin, short red hair, a green outdoor jacket, binoculars around her neck",
+   "moods": [
+    "happy",
+    "sad"
+   ]
+  },
+  {
+   "id": "boyle",
+   "desc": "an older man named Mr. Boyle, Scottish, pale skin, bald with white sideburns, a tartan scarf, a sleepy face, a folded newspaper",
+   "moods": [
+    "sad",
+    "thinking"
+   ]
+  }
+ ],
+ "icons": []
+}

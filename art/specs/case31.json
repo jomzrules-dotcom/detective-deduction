@@ -1,0 +1,68 @@
+{
+ "case": "case31",
+ "bg": "A wide 16:9 view inside a vintage mountain train dining car: small tables with white cloths and little lamps, red leather seats, big windows on both sides showing green mountains and pine forest, a wooden serving counter with a coffee machine on the left, a door to the next car at the back, warm morning light.",
+ "chars": [
+  {
+   "id": "kaur",
+   "desc": "an adult woman chief train conductor named Ms. Kaur, Indian, brown skin, long black hair in a neat braid, a navy conductor uniform with gold buttons, a red conductor cap, a silver ticket punch on a chain",
+   "moods": [
+    "happy",
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "szabo",
+   "desc": "an adult man train chef named Mr. Szabo, Hungarian, light skin, a short grey beard, a white chef coat and small chef hat, a tea towel over his shoulder",
+   "moods": [
+    "happy",
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "timetable",
+   "object": true,
+   "desc": "printed train timetable board in a wooden frame with station names and times"
+  },
+  {
+   "id": "novak",
+   "desc": "an adult man named Mr. Novak, Czech, light skin, short brown hair, a tweed jacket, a long red scarf, a leather bag covered in old train badges",
+   "moods": [
+    "happy",
+    "thinking"
+   ]
+  },
+  {
+   "id": "castillo",
+   "desc": "an older woman named Mrs. Castillo, Mexican, tan skin, curly grey hair, glasses, a green cardigan, holding knitting needles and blue wool",
+   "moods": [
+    "happy",
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "benji",
+   "desc": "a 14 year old boy named Benji, Nigerian, dark brown skin, short hair, a grey hoodie, big headphones around his neck, a phone",
+   "moods": [
+    "sad",
+    "thinking"
+   ]
+  }
+ ],
+ "icons": [
+  {
+   "name": "punch",
+   "desc": "a silver train conductor ticket punch"
+  },
+  {
+   "name": "timetable",
+   "desc": "a printed train timetable card"
+  },
+  {
+   "name": "train",
+   "desc": "a small blue vintage train with five cars"
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "case": "case34",
+ "bg": "A wide 16:9 view inside a vintage train baggage car: wooden walls, metal shelves with suitcases and boxes on two levels, two identical black suitcases in front, luggage tags hanging from handles, a small desk with a clipboard, a sliding door, soft light from a small window.",
+ "chars": [
+  {
+   "id": "haugen",
+   "desc": "an older man violin maker named Mr. Haugen, Norwegian, pale skin, white hair and a long white beard, round glasses, a brown waistcoat, a measuring tape around his neck",
+   "moods": [
+    "happy",
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "baglist",
+   "object": true,
+   "desc": "clipboard with a baggage list and luggage tag numbers on a small wooden desk"
+  },
+  {
+   "id": "abara",
+   "desc": "an adult man named Mr. Abara, Ghanaian, dark brown skin, short hair, a smart black coat, a black suitcase with a luggage tag",
+   "moods": [
+    "happy",
+    "thinking"
+   ]
+  },
+  {
+   "id": "rask",
+   "desc": "an adult woman violin teacher named Ms. Rask, Estonian, pale skin, long straight brown hair, a dark green dress, holding a pile of music books",
+   "moods": [
+    "happy",
+    "sad"
+   ]
+  }
+ ],
+ "icons": [
+  {
+   "name": "suitcase",
+   "desc": "a black suitcase with a luggage tag"
+  }
+ ]
+}

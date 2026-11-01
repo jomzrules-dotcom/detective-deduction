@@ -1,0 +1,31 @@
+{
+ "case": "case35",
+ "chars": [
+  {
+   "id": "cashbox",
+   "object": true,
+   "desc": "small metal cash box with notes inside on a wooden train counter"
+  },
+  {
+   "id": "slips",
+   "object": true,
+   "desc": "small pile of paper lunch slips with a pen on a wooden counter"
+  },
+  {
+   "id": "holm",
+   "desc": "an adult woman named Ms. Holm, Danish, pale skin, sharp blonde bob haircut, a purple coat, a handbag, arms crossed",
+   "moods": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "eriksen",
+   "desc": "a young adult waiter named Mr. Eriksen, Swedish, pale skin, neat blond hair, a white shirt with a black waistcoat and bow tie, holding a tray of plates",
+   "moods": [
+    "happy",
+    "sad"
+   ]
+  }
+ ],
+ "icons": []
+}

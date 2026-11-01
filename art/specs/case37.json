@@ -1,0 +1,48 @@
+{
+ "case": "case37",
+ "chars": [
+  {
+   "id": "mensah",
+   "desc": "an older man named Mr. Mensah, Ghanaian, dark brown skin, white hair, a smart brown suit, reading glasses on his nose",
+   "moods": [
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "closetlog",
+   "object": true,
+   "desc": "small logbook hanging on a hook next to a staff closet door"
+  },
+  {
+   "id": "halloran",
+   "desc": "an adult man named Mr. Halloran, Irish, pale skin, a grey beard, a grey sweater, brown shoes",
+   "moods": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "brandt",
+   "desc": "an adult man train conductor named Mr. Brandt, German, light skin, clean-shaven, short brown hair, a navy conductor uniform and cap, black polished shoes",
+   "moods": [
+    "happy",
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "ivers",
+   "desc": "an adult woman named Ms. Ivers, Canadian, light brown skin, long dark hair, a long navy wool coat, a handbag",
+   "moods": [
+    "sad",
+    "thinking"
+   ]
+  }
+ ],
+ "icons": [
+  {
+   "name": "pen",
+   "desc": "a gold fountain pen"
+  }
+ ]
+}

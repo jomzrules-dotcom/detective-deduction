@@ -1,0 +1,30 @@
+{
+ "case": "case39",
+ "chars": [
+  {
+   "id": "bianchi",
+   "desc": "an adult woman chocolate maker named Ms. Bianchi, Italian, olive skin, dark curly hair under a white cap, a brown chocolatier apron",
+   "moods": [
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "galloway",
+   "desc": "an adult man named Mr. Galloway, English, light brown skin, short black hair, a white shirt with rolled cuffs, a brown waistcoat",
+   "moods": [
+    "happy",
+    "thinking"
+   ]
+  },
+  {
+   "id": "nyberg",
+   "desc": "an adult man hotel porter named Mr. Nyberg, Finnish, pale skin, tall, short blond hair, a burgundy hotel porter uniform and round cap",
+   "moods": [
+    "happy",
+    "sad"
+   ]
+  }
+ ],
+ "icons": []
+}

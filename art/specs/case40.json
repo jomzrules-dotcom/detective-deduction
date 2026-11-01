@@ -1,0 +1,43 @@
+{
+ "case": "case40",
+ "chars": [
+  {
+   "id": "lindahl",
+   "desc": "an older woman named Mrs. Lindahl, Swedish, pale skin, silver hair, a yellow raincoat, an old instant camera",
+   "moods": [
+    "happy",
+    "thinking"
+   ]
+  },
+  {
+   "id": "albrecht",
+   "desc": "an adult woman train writer named Ms. Albrecht, Austrian, light skin, brown hair in a high bun, a long brown coat, a red notebook in her hand",
+   "moods": [
+    "happy"
+   ]
+  },
+  {
+   "id": "pereira",
+   "desc": "an adult man named Mr. Pereira, Portuguese, olive skin, a neat black beard, a dark blue sweater, holding a chess piece",
+   "moods": [
+    "happy",
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "rune",
+   "desc": "a 10 year old boy named Rune, Norwegian, pale skin, light blond hair, a red puffer jacket, snow on his boots, a notebook with tunnel light tally marks",
+   "moods": [
+    "happy",
+    "sad"
+   ]
+  }
+ ],
+ "icons": [
+  {
+   "name": "lantern",
+   "desc": "a golden lantern with a glowing light"
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "case": "case33",
+ "bg": "A wide 16:9 view of a small snowy mountain station platform: deep snow on the roofs, a wooden station building, a little kiosk with snow globes and newspapers on the left, a blue vintage train with open doors on the right, pine trees, falling snow, early morning light.",
+ "chars": [
+  {
+   "id": "aalto",
+   "desc": "an older woman kiosk owner named Mrs. Aalto, Finnish, pale skin, rosy cheeks, white hair in a bun under a knitted hat, a thick red coat, fingerless gloves",
+   "moods": [
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "tess",
+   "desc": "a young adult woman baggage helper named Tess, Irish, pale skin, freckles, red hair in a short ponytail, green work overalls, a cap, a clipboard",
+   "moods": [
+    "happy",
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "lindgren",
+   "desc": "an adult man named Mr. Lindgren, Swedish, pale skin, light brown hair, a beard, a thick grey wool sweater, dark boots with snow on them",
+   "moods": [
+    "happy",
+    "thinking"
+   ]
+  },
+  {
+   "id": "quist",
+   "desc": "an adult woman named Ms. Quist, Dutch, pale skin, blonde hair in a bun, a long blue coat, a folded newspaper under her arm",
+   "moods": [
+    "happy",
+    "sad"
+   ]
+  },
+  {
+   "id": "mila",
+   "desc": "an 8 year old girl named Mila, Polish, light skin, two blonde pigtails, a pink winter jacket, a woolly hat with a pom-pom",
+   "moods": [
+    "happy",
+    "sad",
+    "thinking"
+   ]
+  }
+ ],
+ "icons": [
+  {
+   "name": "snowglobe",
+   "desc": "a snow globe with a little mountain station inside"
+  },
+  {
+   "name": "snow",
+   "desc": "a white snowflake"
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "case": "case32",
+ "bg": "A wide 16:9 view of a vintage mountain train sleeper car corridor: a long narrow corridor with wood panels, sliding doors with room numbers on the right, a row of windows on the left showing snowy mountains, a small wall shelf, warm lamps on the ceiling, a carpet runner.",
+ "chars": [
+  {
+   "id": "dahl",
+   "desc": "an older woman photographer named Mrs. Dahl, Norwegian, pale skin, short white hair, a khaki travel vest with many pockets, a camera strap around her neck with no camera",
+   "moods": [
+    "happy",
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "ferreira",
+   "desc": "an adult man businessman named Mr. Ferreira, Portuguese, olive skin, slicked black hair, a thin moustache, a grey suit, a gold watch",
+   "moods": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "park",
+   "desc": "an adult woman named Ms. Park, Korean, light skin, a black bob haircut, a beige trench coat, a small suitcase, a train ticket in her hand",
+   "moods": [
+    "happy",
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "amadi",
+   "desc": "an adult man painter named Mr. Amadi, Nigerian, dark brown skin, a short beard, a paint-splashed blue shirt, holding a paintbrush and small canvas",
+   "moods": [
+    "happy",
+    "sad",
+    "thinking"
+   ]
+  }
+ ],
+ "icons": []
+}

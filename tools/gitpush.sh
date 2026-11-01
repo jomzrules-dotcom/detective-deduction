@@ -5,6 +5,7 @@ cp /mnt/user-data/outputs/app4/index.html /mnt/user-data/outputs/app4/sw.js /mnt
 cp /mnt/user-data/outputs/webp/manifest.json $R/docs/assets/manifest.json
 rm -f $R/docs/assets/packs/*.json && cp /mnt/user-data/outputs/webp/packs/*.json $R/docs/assets/packs/
 cp /tmp/app4p/assets/ui/*.webp $R/docs/assets/ui/ 2>/dev/null || true
+cp /mnt/user-data/outputs/app4/assets/ui/*.webp $R/docs/assets/ui/ 2>/dev/null || true
 cp /mnt/user-data/outputs/gen/*.json $R/art/specs/
 cp /home/claude/build_packs.py /home/claude/wire.py /home/claude/ship2.sh /home/claude/gitpush.sh $R/tools/
 cd $R && git add -A

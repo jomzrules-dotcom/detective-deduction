@@ -12,10 +12,10 @@ Cases come in Case Files of 10. Finishing a file promotes the player (Neighborho
 
 ## Play it
 
-The game is a single-page web app in `game/`. Serve that folder with any static server, for example:
+The game is a single-page web app in `docs/` (published by GitHub Pages: https://jomzrules-dotcom.github.io/detective-deduction/). Serve that folder with any static server, for example:
 
 ```
-cd game
+cd docs
 python3 -m http.server 8000
 ```
 
@@ -23,9 +23,9 @@ Then open http://localhost:8000. It also works as an installable app (landscape,
 
 ## How it's built
 
-- `game/index.html`: the whole game (cases, moods, case board, notebook, scoring).
-- `game/assets/packs/`: the art, one pack per case (WebP images inside JSON, hashed file names). The game loads only the packs a case needs.
-- `game/assets/manifest.json`: which images and packs exist.
+- `docs/index.html`: the whole game (cases, moods, case board, notebook, scoring).
+- `docs/assets/packs/`: the art, one pack per case (WebP images inside JSON, hashed file names). The game loads only the packs a case needs.
+- `docs/assets/manifest.json`: which images and packs exist.
 - `art/specs/caseN.json`: the art brief for each case (backgrounds, characters, moods, icons) that Codex paints from.
 - `tools/`: scripts that turn Codex's PNGs into WebP, build the packs and ship a case.
 - `tests/`: Playwright checks (every case solvable to 3 stars, data validation, notebook review, unlock order, promotion screen).

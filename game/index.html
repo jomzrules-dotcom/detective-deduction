@@ -156,7 +156,7 @@
   .fold .lbl{position:absolute;left:11%;top:4.6%;font-family:"Special Elite";font-size:4.2cqw;color:var(--ink)}
   .fold .photo{position:absolute;left:10%;top:22%;width:44%;aspect-ratio:1/0.82;background:#fff;padding:1.4cqw 1.4cqw 3.6cqw;transform:rotate(-4deg);box-shadow:0 2px 4px rgba(0,0,0,.25)}
   .fold .photo svg{width:100%;height:100%;display:block}
-  .fold .photo img.tape{position:absolute;top:-3cqw;left:22%;width:56%}
+  .fold .photo img.tape{position:absolute;top:-4.4cqw;left:-7cqw;width:30%;transform:rotate(-38deg);opacity:.92}
   .fold .info{position:absolute;left:58%;right:6%;top:24%;text-align:left}
   .fold .info b{font-family:"Fredoka";font-weight:700;font-size:6.4cqw;line-height:1.15;color:var(--ink);display:block}
   .fold .info small{display:block;font-size:4.3cqw;color:#7a6440;margin-top:3px}
@@ -245,6 +245,81 @@
   .rankbar img.rb{width:58px;height:58px;object-fit:contain;filter:drop-shadow(0 2px 2px rgba(0,0,0,.25))}
   .rankbar small{display:block;font-family:"Special Elite";font-size:12px;color:#7a6440;letter-spacing:1px}
   .gold-edge{border-radius:50%;box-shadow:0 0 0 3px #ffd34d,0 0 12px #ffd34d}
+
+  .rankchip{display:flex;align-items:center;gap:8px;margin-left:auto}.rankchip img.rb{width:34px;height:34px;object-fit:contain}
+  .rankchip small{display:block;font-family:"Special Elite";font-size:9.5px;color:#7a6440;letter-spacing:1px;line-height:1}.rankchip b{display:block;font-size:14px;line-height:1.15;color:var(--ink)}
+  .rankchip em{font-style:normal;font-weight:700;color:#c48a00;margin-left:8px}
+  .cabinets{display:flex;flex-wrap:wrap;justify-content:center;gap:26px;padding:16px 6px 4px}
+  .cabinet{position:relative;flex:0 1 460px;padding:0 10px;background:linear-gradient(90deg,#2f3824,#4c5839 4%,#56643f 50%,#4c5839 96%,#2f3824);
+    box-shadow:0 14px 24px rgba(40,30,10,.45),inset 0 0 0 2px #2b331f;border-radius:4px}
+  .cab-top{height:18px;margin:0 -16px 8px;border-radius:5px 5px 2px 2px;background:linear-gradient(#93a274,#6b7a50 45%,#4f5c39);box-shadow:0 4px 6px rgba(0,0,0,.35),inset 0 1px 0 rgba(255,255,255,.35)}
+  .cab-base{height:20px;margin:6px -4px 0;background:linear-gradient(#27301c,#1e2516);border-radius:0 0 3px 3px;position:relative}
+  .cab-base::before,.cab-base::after{content:"";position:absolute;bottom:-9px;width:34px;height:10px;background:#15190f;border-radius:0 0 4px 4px}.cab-base::before{left:10px}.cab-base::after{right:10px}
+  .drawer{position:relative;display:flex;align-items:center;gap:12px;width:100%;height:96px;margin:0 0 8px;padding:0 16px;border:0;cursor:pointer;text-align:left;border-radius:4px;
+    background:linear-gradient(#7a8a5f,#647350 8%,#5c6a45 55%,#4f5c3b);
+    box-shadow:inset 0 0 0 3px #6f7e55,inset 0 0 0 5px #3d482c,inset 0 2px 0 6px rgba(255,255,255,.12),0 2px 0 #2b331f,0 3px 3px rgba(0,0,0,.35);transition:transform .15s}
+  .drawer:active{transform:translateY(1px)}
+  .drawer .dlabel{flex:none;width:44%;padding:5px 10px 6px;background:linear-gradient(#fdf6e1,#f1e6c4);border-radius:2px;
+    box-shadow:0 0 0 3px #c9a24a,0 0 0 4px #7d5f17,0 2px 0 4px rgba(0,0,0,.25),inset 0 1px 4px rgba(120,90,30,.3)}
+  .drawer .dlabel small{display:block;font-family:"Special Elite";font-size:10.5px;color:#a0700a;letter-spacing:1px;line-height:1.1}
+  .drawer .dlabel b{display:block;font-family:"Special Elite";font-size:16px;color:var(--ink);line-height:1.15;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .drawer .dlabel i{display:block;font-style:normal;font-size:11.5px;color:#7a6440;line-height:1.2}
+  .drawer .dpull{flex:none;width:90px;height:24px;margin:0 auto;border-radius:6px 6px 14px 14px;background:linear-gradient(#f4dc8e,#c49a3a 40%,#8a6512);box-shadow:0 4px 0 #4a3608,0 6px 6px rgba(0,0,0,.35),inset 0 2px 0 rgba(255,255,255,.55)}
+  .drawer img.dbadge{flex:none;width:46px;height:46px;object-fit:contain;filter:drop-shadow(0 2px 2px rgba(0,0,0,.4))}
+  .drawer .dkey{flex:none;width:30px;height:30px;margin:0 8px;border-radius:50%;background:radial-gradient(circle at 50% 40%,#1a1f12 0 4px,transparent 5px),linear-gradient(#1a1f12,#1a1f12) 50% 66%/4px 10px no-repeat,radial-gradient(#e2c06a,#8a6512);box-shadow:0 2px 0 #3a2a08}
+  .drawer.cur::after{content:"";position:absolute;inset:-3px;border-radius:6px;border:3px solid #ffd76a;box-shadow:0 0 14px rgba(255,215,106,.75);pointer-events:none;animation:curglow 1.6s ease-in-out infinite alternate}
+  @keyframes curglow{from{opacity:.45}to{opacity:1}}
+  .drawer.locked{cursor:default;filter:saturate(.55) brightness(.85)}
+  .drawer.future{cursor:default;filter:saturate(.35) brightness(.72)}.drawer.future .dlabel{opacity:.75}
+  .drawer::before{content:"";position:absolute;left:4%;right:4%;bottom:100%;height:0;border-radius:3px 3px 0 0;overflow:hidden;
+    background:repeating-linear-gradient(90deg,#f4e3b4 0 24px,#e2c98a 24px 26px,#f7ecc9 26px 54px,#d9bd7c 54px 56px),#2a3220;background-size:100% 70%,100% 100%;background-position:0 100%,0 0;background-repeat:no-repeat;transition:height .35s}
+  .drawer.pulling{z-index:3;animation:pullout .5s cubic-bezier(.3,.8,.4,1) forwards}
+  .drawer.pulling::before{height:30px}
+  @keyframes pullout{to{transform:translateY(8px) scale(1.08);box-shadow:inset 0 0 0 3px #6f7e55,inset 0 0 0 5px #3d482c,0 18px 28px rgba(0,0,0,.5)}}
+
+  /* tall, thin cabinets */
+  .cabinets{gap:22px;padding:18px 6px 4px}
+  .cabinet{flex:0 0 220px;padding:0 9px}
+  .drawer{flex-direction:column;justify-content:flex-start;gap:9px;height:110px;padding:14px 12px 10px}
+  .drawer .dlabel{width:78%;text-align:center;padding:4px 6px 5px}
+  .drawer .dlabel b{font-size:14px}.drawer .dlabel small{font-size:9.5px}.drawer .dlabel i{font-size:10.5px}
+  .drawer .dpull{width:96px;height:22px;margin:2px auto 0}
+  .drawer img.dbadge{position:absolute;right:8px;bottom:8px;width:30px;height:30px}
+  .drawer .dkey{position:absolute;right:10px;bottom:10px;width:20px;height:20px;margin:0}
+
+  /* vintage steel cabinet like the reference photo */
+  .cabinets{gap:20px;padding:20px 6px 6px}
+  .cabinet{flex:0 0 190px;padding:0 7px;border-radius:2px;
+    background:linear-gradient(90deg,#1d1b12 0,#3a3624 5%,#4a4530 30%,#423d29 70%,#34301f 95%,#1d1b12 100%);
+    box-shadow:0 16px 26px rgba(30,20,5,.55),inset 0 0 0 1px #15130c}
+  .cab-top{height:12px;margin:0 -9px 6px;border-radius:2px;background:linear-gradient(#6d6748,#4c4733 50%,#2f2b1d);box-shadow:0 3px 5px rgba(0,0,0,.45),inset 0 1px 0 rgba(255,255,255,.25)}
+  .cab-base{height:16px;margin:4px -2px 0;background:linear-gradient(#211e13,#151309)}
+  .cab-base::before,.cab-base::after{bottom:-7px;width:26px;height:8px;background:#0e0d07}
+  .drawer{flex-direction:column;justify-content:flex-start;align-items:center;gap:7px;height:150px;margin:0 0 6px;padding:20px 10px 8px;border-radius:2px;
+    background:
+      radial-gradient(ellipse at 30% 20%,rgba(255,255,240,.10),transparent 60%),
+      repeating-linear-gradient(90deg,rgba(255,255,255,.018) 0 2px,rgba(0,0,0,.02) 2px 4px),
+      linear-gradient(#55503a,#48432f 40%,#3d3826);
+    box-shadow:inset 0 0 0 2px #2a2718,inset 0 0 0 3px #5e5940,inset 0 2px 0 3px rgba(255,255,230,.14),inset 0 -3px 0 3px rgba(0,0,0,.28),0 2px 0 #14120b}
+  .drawer .dlabel{width:64%;min-height:30px;padding:3px 5px 4px;text-align:center;border-radius:1px;background:linear-gradient(#f6f0de,#e7dcbd);
+    box-shadow:0 0 0 2px #d8d8d4,0 0 0 3px #7c7c78,0 0 0 4px #c9c9c4,0 2px 3px 4px rgba(0,0,0,.35),inset 0 1px 3px rgba(0,0,0,.25)}
+  .drawer .dlabel small{font-size:8.5px;color:#7a6440}.drawer .dlabel b{font-size:12.5px;white-space:normal;line-height:1.1}
+  .drawer .dlabel i{display:none}
+  .drawer .dpull{width:76px;height:16px;margin:4px auto 0;border-radius:3px 3px 9px 9px;background:linear-gradient(#ffffff,#d6d6d2 30%,#8f8f8a 70%,#5b5b57);box-shadow:0 3px 0 #2b2a26,0 5px 5px rgba(0,0,0,.45),inset 0 1px 0 #fff}
+  .drawer .dstat{display:block;margin-top:auto;font-size:10.5px;color:rgba(240,232,200,.75);letter-spacing:.3px;text-shadow:0 -1px 0 rgba(0,0,0,.5)}
+  .drawer img.dbadge{right:7px;bottom:7px;width:26px;height:26px}
+  .drawer .dkey{right:9px;bottom:9px;width:16px;height:16px;background:radial-gradient(circle at 50% 40%,#141209 0 3px,transparent 4px),linear-gradient(#141209,#141209) 50% 66%/3px 7px no-repeat,radial-gradient(#f1f1ee,#7c7c78)}
+  .drawer.cur::after{inset:-2px;border-radius:3px}
+  .drawer.locked{filter:brightness(.78)}.drawer.future{filter:brightness(.62) saturate(.6)}
+  .drawer.pulling::before{height:26px}
+  .cabinets.art .drawer{background:url(assets/ui/cab_drawer.webp) center/100% 100% no-repeat;box-shadow:none}
+  .cabinets.art .drawer.locked,.cabinets.art .drawer.future{background-image:url(assets/ui/cab_drawer_locked.webp)}
+  .cabinets.art .drawer .dpull,.cabinets.art .drawer .dkey{visibility:hidden}
+  .cabinets.art .cab-top{background:url(assets/ui/cab_top.webp) center/100% 100% no-repeat;box-shadow:none;height:26px}
+  .cabinets.art .cab-base{background:url(assets/ui/cab_base.webp) center/100% 100% no-repeat;height:30px}.cabinets.art .cab-base::before,.cabinets.art .cab-base::after{display:none}
+  .drawer-in{margin:4px;padding:16px 10px 8px;border-radius:8px;background:linear-gradient(#3a4429,#4a5636 18px,#55623f);box-shadow:inset 0 10px 16px rgba(0,0,0,.45),inset 8px 0 10px rgba(0,0,0,.25),inset -8px 0 10px rgba(0,0,0,.25);animation:drawerin .35s ease-out}
+  @keyframes drawerin{from{transform:translateY(-14px);opacity:.3}to{transform:none;opacity:1}}
+  .drawer-in .hint.cork{margin-bottom:6px}
   .cf{margin:4px 4px 18px}
   .cf-head{width:100%;display:flex;align-items:center;gap:12px;text-align:left;border:0;cursor:pointer;background:#fffaf0;border-radius:6px 6px 6px 6px;padding:10px 14px;box-shadow:0 4px 0 rgba(0,0,0,.08),0 6px 14px rgba(80,50,10,.22);border-left:8px solid #e0524d;font-family:"Fredoka";color:var(--ink)}
   .cf:nth-child(even) .cf-head{border-left-color:#5b9bf0}
@@ -304,6 +379,10 @@
     .menu .markrow{padding:4px 8px;font-size:12px}.menu .markrow .marks{margin-top:3px}.menu .markrow .marks button{padding:4px 0;font-size:12px}
     .banner{top:6px;padding:4px 8px;font-size:12px}.banner svg{width:18px;height:18px}
     .hub-head{padding:8px 12px;margin:0 4px 10px}.rankbar img.rb{width:44px;height:44px}
+    .cabinets{flex-wrap:nowrap;gap:10px;padding:10px 2px 0}.cabinet{flex:0 0 148px;padding:0 5px}
+    .drawer{height:68px;gap:3px;padding:8px 6px 4px;margin-bottom:4px}.drawer .dlabel{width:76%;min-height:0;padding:1px 3px 2px}.drawer .dlabel small{display:block;font-size:7px}.drawer .dlabel b{font-size:10px}
+    .drawer .dpull{width:46px;height:10px;margin-top:2px}.drawer .dstat{font-size:8.5px}.drawer img.dbadge{width:16px;height:16px;right:4px;bottom:3px}.drawer .dkey{width:11px;height:11px;right:5px;bottom:4px}.cab-top{height:9px;margin-bottom:4px}.cab-base{height:10px}
+    .rankchip img.rb{width:26px;height:26px}.rankchip b{font-size:12px}
     .cf{margin:2px 4px 10px}.cf-head{padding:6px 12px}.cf-head img{width:36px;height:36px}.cf-head b{font-size:16px}
     .folders{grid-template-columns:repeat(auto-fill,minmax(240px,1fr))}
     h1{font-size:20px}.stars{font-size:34px}.score{font-size:24px}
@@ -1197,6 +1276,8 @@ function fileCases(f){ return CASES.filter(c=>c.n>=f.from&&c.n<=f.to); }
 function caseStars(c){ return (progress[c.id]||{}).stars||0; }
 function fileDone(f){ const cs=fileCases(f); return cs.length===f.to-f.from+1 && cs.every(c=>caseStars(c)>0); }
 function fileGold(f){ const cs=fileCases(f); return cs.length===f.to-f.from+1 && cs.every(c=>caseStars(c)===3); }
+const FUTURE_FILES={4:"Mountain Express"};
+let CABART=false; (function(){ const im=new Image(); im.onload=()=>{ CABART=true; if(typeof render==="function"&&READY&&!C) render(); }; im.src="assets/ui/cab_drawer.webp"; })();
 function caseOpen(c){ if(unlockAll||c.n===1) return true; const pv=CASES[c.n-2]; return !!pv&&caseStars(pv)>0; }
 function fileOpen(f){ return unlockAll || f.n===1 || fileDone(FILES[f.n-2]); }
 function stripeCount(){ let n=0; for(const f of FILES){ if(!fileDone(f)) break; if(f.n>=RANKS.length) n++; } return n; }
@@ -1205,6 +1286,8 @@ function rankIdx(){ let r=0; for(const f of FILES){ if(fileDone(f)) r=f.n; else 
 function badgeImg(name,cls){ const p=ART.icons&&ART.icons[name]; return `<img class="${cls||''}" src="${p?A(p):'assets/ui/badge.webp'}" alt="">`; }
 function caseReady(c){ return !!(ART.backgrounds&&ART.backgrounds[c.bg]) && Object.values(c.chars).every(ch=>ART.figures&&ART.figures[ch.key]); }
 function togglePlaytest(){ unlockAll=!unlockAll; try{ localStorage.setItem("dd_unlock",unlockAll?"1":"0"); }catch(e){} render(); }
+function openDrawer(n){ const d=document.getElementById('dr'+n); if(d){ d.classList.add('pulling'); setTimeout(()=>{ fileExp=n; render(); },520); } else { fileExp=n; render(); } }
+function closeDrawer(){ fileExp=0; render(); }
 function toggleFile(n){ fileExp=(fileExp===n?0:n); render(); }
 function closePromo(n){ const el=document.getElementById("promo"); if(el) el.remove(); if(n&&FILES[n]){ fileExp=FILES[n].n; goHome(); } }
 function promoHtml(f){
@@ -1243,33 +1326,37 @@ function backBtn(label,fn){ return `<button class="tbtn" onclick="${fn}">‹ ${l
 function renderHub(){
   const ri=rankIdx(), rk=rankObj(), total=Object.values(progress).reduce((a,b)=>a+(b.stars||0),0);
   const pins=['prop_0','prop_1','prop_2'];
-  if(fileExp===null){ const cur=FILES.find(f=>fileOpen(f)&&!fileDone(f)); fileExp=(cur||FILES[0]).n; }
+  if(fileExp===null) fileExp=0;
   const goldNow=ri>0&&fileGold(FILES[ri-1]);
-  const files=FILES.map(f=>{
-    const open=fileOpen(f), cs=fileCases(f), ready=cs.filter(caseReady), exp=open&&fileExp===f.n;
-    const solved=cs.filter(c=>caseStars(c)>0).length, st=cs.reduce((a,c)=>a+caseStars(c),0), need=RANKS[Math.min(f.n-1,RANKS.length-1)];
+  const folderHtml=f=>{ const ready=fileCases(f).filter(caseReady);
     const folders=ready.map((c,i)=>{const p=progress[c.id]||{}; const sv=(p.stars||0)>0, lk=!caseOpen(c);
         return `<button class="fold ${lk?'locked':''}" onclick="${lk?`toast('Solve Case ${c.n-1} first')`:`loadCase(CASES[${c.n-1}])`}"><img class="f" src="assets/ui/folder.webp" alt="">
-          <img class="pin" src="assets/ui/${pins[i%3]}.webp" alt="">
           <span class="lbl">CASE ${String(c.n).padStart(2,'0')}</span>
           <span class="photo"><img class="tape" src="assets/ui/prop_4.webp" alt="">${sceneSvg(c.bg)}</span>
           <span class="info"><b>${c.title}</b><small>${c.place} · ${Object.keys(c.suspects).length} suspects</small></span>
           <span class="stars">${[1,2,3].map(k=>`<span class="${k<=(p.stars||0)?'':'off'}">★</span>`).join("")}</span>
           ${sv?'<span class="solved">SOLVED</span>':''}${lk?'<span class="lockd">🔒</span>':''}</button>`;}).join("");
-    return `<div class="cf ${open?'':'locked'} ${exp?'exp':''}">
-      <button class="cf-head" onclick="${open?`toggleFile(${f.n})`:`toast('Solve every case in Case File ${f.n-1} to be promoted')`}">
-        ${open?badgeImg(need.badge,fileGold(f)?'gold-edge':''):'<span style="font-size:34px;width:46px;text-align:center">🔒</span>'}
-        <span class="t"><small>CASE FILE ${f.n}</small><b>${f.title}</b><span>${open?f.sub:'For '+need.name+'s'}</span></span>
-        <span class="pr"><b>${solved}/${f.to-f.from+1}</b><br>${st} ★</span>${open?'<span class="chev">›</span>':''}</button>
-      ${!open?`<div class="cf-lock">🔒 Solve every case in Case File ${f.n-1} to be promoted to ${need.name}.</div>`:''}
-      ${exp?`<div class="folders">${folders}</div>${ready.length<f.to-f.from+1?`<p style="text-align:center;margin-top:4px"><span class="hint cork">${ready.length?'More cases in this file are on the way.':'The cases in this file are being prepared.'}</span></p>`:''}`:''}
-    </div>`; }).join("");
-  frame({ cls:"cork", top:`<div class="brandrow"><img src="assets/ui/badge.webp" alt=""><div class="brand">Detective Deduction</div></div><div class="brand-sub">${total} ★</div>`,
-    main:`<div class="hub-head"><img class="pin" src="assets/ui/prop_0.webp" alt="">
-        <div class="rankbar">${badgeImg(rk.badge,'rb '+(goldNow?'gold-edge':''))}<div><small>YOUR RANK</small><b>${rk.name}</b><span>Talk, take notes, catch the lie.</span></div></div></div>
-      ${files}
-      <p style="text-align:center"><button class="playtest" onclick="togglePlaytest()">${unlockAll?'Playtest: all files unlocked (tap to lock)':'Playtest: unlock all files'}</button></p>`,
-    tabs:`<div class="tabnote" style="font-family:'Special Elite'">Open a Case File, then tap a folder</div>` });
+    return `<div class="folders">${folders}</div>${ready.length<f.to-f.from+1?`<p style="text-align:center;margin-top:4px"><span class="hint cork">${ready.length?'More cases in this file are on the way.':'The cases in this file are being prepared.'}</span></p>`:''}`; };
+  const F=FILES.find(x=>x.n===fileExp&&fileOpen(x));
+  if(F){
+    const cs=fileCases(F), solved=cs.filter(c=>caseStars(c)>0).length, st=cs.reduce((a,c)=>a+caseStars(c),0), need=RANKS[Math.min(F.n-1,RANKS.length-1)];
+    frame({ cls:"cork", top:backBtn("Cabinet","closeDrawer()")+`<div class="ttl">Case File ${F.n} · ${F.title}</div><div class="brand-sub">${solved}/${cs.length} · ${st} ★</div>`,
+      main:`<div class="drawer-in">${folderHtml(F)}</div>`,
+      tabs:`<div class="tabnote" style="font-family:'Special Elite'">Tap a folder to open the case</div>` });
+  } else {
+    const slots=[]; for(let n=1;n<=Math.max(20,Math.ceil((FILES.length+1)/4)*4);n++) slots.push(n);
+    const drawerHtml=n=>{ const f=FILES.find(x=>x.n===n);
+      if(!f){ const fu=FUTURE_FILES[n]; return `<button class="drawer future" onclick="toast('Case File ${n} is coming soon')"><span class="dlabel"><small>CASE FILE ${n}</small><b>${fu||'—'}</b></span><span class="dpull"></span><span class="dstat">Coming soon</span><span class="dkey"></span></button>`; }
+      const open=fileOpen(f), cs=fileCases(f), solved=cs.filter(c=>caseStars(c)>0).length, st=cs.reduce((a,c)=>a+caseStars(c),0), need=RANKS[Math.min(f.n-1,RANKS.length-1)], cur=open&&!fileDone(f);
+      return `<button class="drawer ${open?'':'locked'} ${cur?'cur':''}" id="dr${f.n}" onclick="${open?`openDrawer(${f.n})`:`toast('Solve every case in Case File ${f.n-1} to be promoted to ${need.name}')`}">
+        <span class="dlabel"><small>CASE FILE ${f.n}</small><b>${f.title}</b><i>${open?`${solved}/${f.to-f.from+1} solved · ${st} ★`:`🔒 For ${need.name}s`}</i></span>
+        <span class="dpull"></span><span class="dstat">${open?`${solved}/${f.to-f.from+1} · ${st} ★`:`🔒 ${need.name}`}</span>${open?badgeImg(need.badge,'dbadge '+(fileGold(f)?'gold-edge':'')):'<span class="dkey"></span>'}</button>`; };
+    const cabs=[]; for(let k=0;k<slots.length;k+=4) cabs.push(`<div class="cabinet"><div class="cab-top"></div>${slots.slice(k,k+4).map(drawerHtml).join("")}<div class="cab-base"></div></div>`);
+    frame({ cls:"cork", top:`<div class="brandrow"><img src="assets/ui/badge.webp" alt=""><div class="brand">Detective Deduction</div></div><div class="rankchip">${badgeImg(rk.badge,'rb '+(goldNow?'gold-edge':''))}<span><small>YOUR RANK</small><b>${rk.name}</b></span><em>${total} ★</em></div>`,
+      main:`<div class="cabinets ${CABART?'art':''}">${cabs.join("")}</div>
+        <p style="text-align:center"><button class="playtest" onclick="togglePlaytest()">${unlockAll?'Playtest: all files unlocked (tap to lock)':'Playtest: unlock all files'}</button></p>`,
+      tabs:`<div class="tabnote" style="font-family:'Special Elite'">Pull out a drawer to see its cases</div>` });
+  }
   setTimeout(()=>{ const f=FILES.find(x=>x.n===fileExp); const nx=f&&fileCases(f).filter(caseReady).find(c=>caseStars(c)===0&&caseOpen(c)); if(nx) ensureCase(nx); },600);
 }
 function renderIntro(){

@@ -1,0 +1,62 @@
+{
+ "case": "case11",
+ "bg": "A wide 16:9 view inside a town hall museum room during a festival: polished wooden floor, tall arched windows on the right showing heavy rain outside, an empty glass display case on a pedestal against the back wall, old framed paintings on the walls, colourful festival bunting hanging from the ceiling, a wide open doorway on the left.",
+ "chars": [
+  {
+   "id": "adler",
+   "desc": "an adult museum keeper named Ms. Adler, light skin, a neat grey bob, round glasses, a navy blazer with a name badge, a skirt and flat shoes",
+   "moods": [
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "felix",
+   "desc": "a young adult museum guard named Felix, dark brown skin, short black hair, a light blue guard uniform with a cap and a walkie-talkie on the belt",
+   "moods": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "garza",
+   "desc": "an older woman named Mrs. Garza, Latina, tan skin, grey hair in a bun, a dry green raincoat, holding a closed dry umbrella and a big brown handbag",
+   "moods": [
+    "happy",
+    "thinking"
+   ]
+  },
+  {
+   "id": "oskar",
+   "desc": "a 17 year old art student named Oskar, light skin, messy blond hair, glasses, a grey hoodie, a camera on a strap around his neck, jeans",
+   "moods": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "webb",
+   "desc": "an adult roof repairman named Mr. Webb, light skin, red beard, a yellow raincoat over work clothes, a tool belt with a hammer, work boots",
+   "moods": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "ticket",
+   "object": true,
+   "desc": "small paper ticket book on a little wooden stand"
+  }
+ ],
+ "icons": [
+  {
+   "name": "umbrella",
+   "desc": "a closed dry umbrella"
+  },
+  {
+   "name": "rain",
+   "desc": "a grey cloud with heavy rain drops"
+  },
+  {
+   "name": "bird",
+   "desc": "a small shiny golden bird statue"
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "case": "case27",
+ "chars": [
+  {
+   "id": "bauer",
+   "desc": "an adult man station master named Mr. Bauer, German, light skin, a grey moustache, a dark blue station uniform and peaked cap, a whistle",
+   "moods": [
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "selin",
+   "desc": "a 10 year old girl named Selin, Turkish, light olive skin, long dark wavy hair, a green coat, a yellow backpack, a little white glue on her fingertips",
+   "moods": [
+    "happy",
+    "sad"
+   ]
+  },
+  {
+   "id": "asante",
+   "desc": "an adult woman cleaner named Mrs. Asante, Ghanaian, dark brown skin, short grey hair, a light grey cleaner's uniform, a mop, glasses pushed up on her head",
+   "moods": [
+    "happy",
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "idris",
+   "desc": "an 11 year old boy named Idris, Moroccan, light brown skin, short black hair, a bright yellow raincoat, a subway ticket in his hand",
+   "moods": [
+    "happy"
+   ]
+  },
+  {
+   "id": "pryce",
+   "desc": "an adult woman named Ms. Pryce, Welsh, pale skin, short purple-dyed hair, a craft apron full of pockets, holding a hot glue gun",
+   "moods": [
+    "happy",
+    "thinking"
+   ]
+  },
+  {
+   "id": "stcam",
+   "object": true,
+   "desc": "small station security camera on a tiled wall bracket"
+  }
+ ],
+ "icons": []
+}

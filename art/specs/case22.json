@@ -1,0 +1,51 @@
+{
+ "case": "case22",
+ "bg": "A wide 16:9 view of a city apartment building lobby: a concierge desk with a visitor book and a bell on the left, rows of metal mailboxes, a lift with brass doors in the back, a door marked PARCELS and a door marked LAUNDRY on the right, potted plants, a tiled floor, evening light from a glass front door.",
+ "chars": [
+  {
+   "id": "kowal",
+   "desc": "an older man concierge named Mr. Kowal, Polish, light skin, neat white moustache, bald on top with grey sides, a dark green concierge jacket with brass buttons, a big ring of keys on his belt",
+   "moods": [
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "seo",
+   "desc": "an adult man named Mr. Seo, Korean, light skin, short black hair, a grey hoodie and jeans, bike gloves, holding a bike wrench",
+   "moods": [
+    "happy",
+    "thinking"
+   ]
+  },
+  {
+   "id": "mateo",
+   "desc": "an 11 year old boy named Mateo, Latino, tan skin, short curly black hair, a red hoodie with white dryer lint on one sleeve, jeans",
+   "moods": [
+    "happy",
+    "thinking"
+   ]
+  },
+  {
+   "id": "brennan",
+   "desc": "an older woman named Mrs. Brennan, Irish, pale skin, curly white hair, a lilac cardigan, pearl earrings, holding a small handbag",
+   "moods": [
+    "sad"
+   ]
+  },
+  {
+   "id": "bruno",
+   "desc": "an adult courier named Bruno, Brazilian, tan skin, short black hair and stubble, an orange courier uniform with a cap, a parcel scanner in his hand",
+   "moods": [
+    "happy",
+    "thinking"
+   ]
+  },
+  {
+   "id": "llog",
+   "object": true,
+   "desc": "key card reader panel with a small screen next to a laundry room door"
+  }
+ ],
+ "icons": []
+}

@@ -1,0 +1,69 @@
+{
+ "case": "case17",
+ "bg": "A wide 16:9 view inside a cosy town library: tall wooden bookshelves along the back wall, a front desk with a computer on the left, a display table with a few books on a stand in the middle back, a round wall clock, a door to a back office on the right, a copy machine in the back corner, festival posters with pictures only.",
+ "chars": [
+  {
+   "id": "okafor",
+   "desc": "an adult librarian named Mrs. Okafor, Nigerian, dark skin, short natural hair, glasses on a chain, a purple cardigan, a long skirt",
+   "moods": [
+    "thinking",
+    "sad"
+   ]
+  },
+  {
+   "id": "shira",
+   "desc": "a 12 year old girl named Shira, olive skin, long dark ponytail, a quiz team t-shirt with a star, jeans, sneakers",
+   "moods": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "aldo",
+   "desc": "a 12 year old boy named Aldo, light skin, neat black hair, a green sweater, carrying a school backpack",
+   "moods": [
+    "sad"
+   ]
+  },
+  {
+   "id": "margot",
+   "desc": "a 14 year old girl named Margot, light skin, straight brown bob, a white shirt with a grey smudge on one sleeve, a library helper badge, dark skirt",
+   "moods": [
+    "happy",
+    "thinking"
+   ]
+  },
+  {
+   "id": "petrov",
+   "desc": "an older night cleaner named Mr. Petrov, light skin, grey hair and thick eyebrows, a blue cleaning uniform, holding a mop",
+   "moods": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "lara",
+   "desc": "a 12 year old girl named Lara, East Asian, light skin, two short pigtails, round glasses, a neat cardigan, holding a notebook",
+   "moods": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "copier",
+   "object": true,
+   "desc": "office copy machine with a little grey powder smear on the tray"
+  }
+ ],
+ "icons": [
+  {
+   "name": "answers",
+   "desc": "a sheet of paper with a big tick mark"
+  },
+  {
+   "name": "copy",
+   "desc": "a stack of copied paper"
+  },
+  {
+   "name": "backpack",
+   "desc": "a school backpack"
+  }
+ ]
+}

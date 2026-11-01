@@ -1,0 +1,59 @@
+{
+ "case": "case24",
+ "bg": "A wide 16:9 view of a bright department store toy floor: shelves of toys and puzzles, a big model train set on a display table, a hold shelf with boxes behind a counter on the left, a gift-wrap desk with ribbon rolls, a cashier till near the front doors on the right, colourful hanging signs.",
+ "chars": [
+  {
+   "id": "yasmin",
+   "desc": "an adult woman cashier named Yasmin, Middle Eastern, olive skin, a navy headscarf, a red store vest with a name badge",
+   "moods": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "duarte",
+   "desc": "an adult man store guard named Mr. Duarte, Portuguese, tan skin, a shaved head, a black guard uniform with a radio on the shoulder",
+   "moods": [
+    "happy",
+    "thinking"
+   ]
+  },
+  {
+   "id": "fujita",
+   "desc": "an older man named Mr. Fujita, Japanese, light skin, neat grey hair, glasses, a beige coat over a sweater vest, a receipt in his hand",
+   "moods": [
+    "happy",
+    "sad"
+   ]
+  },
+  {
+   "id": "desmond",
+   "desc": "a young adult stock boy named Desmond, Black, dark brown skin, short twists, a red store vest, holding half a sandwich",
+   "moods": [
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "rhee",
+   "desc": "an adult woman named Ms. Rhee, Korean, light skin, a black bob haircut, a white trench coat, holding a puzzle box",
+   "moods": [
+    "happy",
+    "thinking"
+   ]
+  },
+  {
+   "id": "tunde",
+   "desc": "a young adult man named Tunde, Nigerian, dark brown skin, short hair, a red store vest, a roll of shiny wrapping paper",
+   "moods": [
+    "happy",
+    "thinking"
+   ]
+  },
+  {
+   "id": "holdlog",
+   "object": true,
+   "desc": "open logbook on a counter with a pen on a string, a hold shelf behind it"
+  }
+ ],
+ "icons": []
+}

@@ -1,0 +1,69 @@
+{
+ "case": "case9",
+ "bg": "A wide 16:9 view of a sports club room next to a football field, a wooden trophy shelf on the back wall with one empty spot, team photos as plain coloured frames, a window and an open door on the right showing a green football field with a goal, a bench and a row of lockers on the left. The floor in the lower half is empty.",
+ "chars": [
+  {
+   "id": "coach",
+   "desc": "an adult football coach, dark brown skin, short black hair, a whistle around the neck, a red team tracksuit, sneakers",
+   "moods": [
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "ravi",
+   "desc": "a teenage football player named Ravi, South Asian, light brown skin, short black hair, a blue football kit with shorts and long socks, football boots",
+   "moods": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "sheet",
+   "desc": "clipboard with a sign-in sheet",
+   "object": true,
+   "moods": []
+  },
+  {
+   "id": "nico",
+   "desc": "a 10 year old boy named Nico, dark brown skin, short black curls, a small red team tracksuit like his dad, muddy sneakers",
+   "moods": [
+    "happy",
+    "thinking"
+   ]
+  },
+  {
+   "id": "hana",
+   "desc": "a teenage goalkeeper girl named Hana, East Asian, light skin, black hair in a short ponytail, a green goalkeeper shirt, big goalkeeper gloves, shorts, football boots",
+   "moods": [
+    "happy",
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "amir",
+   "desc": "a teenage football player named Amir, Middle Eastern, light brown skin, short wavy dark hair, a blue football kit with shorts and long socks, football boots, arms crossed slightly grumpy",
+   "moods": [
+    "sad"
+   ]
+  },
+  {
+   "id": "boateng",
+   "desc": "an adult school cleaner named Mr. Boateng, dark brown skin, grey short hair, a grey cleaner uniform, soft indoor slippers, holding a mop",
+   "moods": [
+    "sad",
+    "thinking"
+   ]
+  }
+ ],
+ "icons": [
+  {
+   "name": "trophy",
+   "desc": "a golden trophy cup"
+  },
+  {
+   "name": "foot",
+   "desc": "small muddy child footprints"
+  }
+ ]
+}

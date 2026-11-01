@@ -1,0 +1,61 @@
+{
+ "case": "case16",
+ "bg": "A wide 16:9 view of an outdoor festival stage on a town square at early evening: a wooden stage with red curtains and stage lights in the back, a small sound desk table with a laptop at the right side of the stage, colourful bunting and string lights, old buildings around the square.",
+ "chars": [
+  {
+   "id": "quinn",
+   "desc": "an adult music teacher named Mr. Quinn, light skin, brown hair in a small ponytail, a black t-shirt, big headphones around his neck, jeans",
+   "moods": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "cass",
+   "desc": "a 13 year old girl named Cass, light skin, wavy red hair, a sparkly silver jacket over a pink top, a pink USB stick on a lanyard, a skirt with leggings, sneakers",
+   "moods": [
+    "happy",
+    "thinking"
+   ]
+  },
+  {
+   "id": "juno",
+   "desc": "a 13 year old girl named Juno, dark brown skin, short black afro with a yellow headband, a yellow top, jeans, sneakers",
+   "moods": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "tobi",
+   "desc": "a 13 year old boy named Tobi, light brown skin, short black hair, a blue dance t-shirt, joggers, holding a handmade good-luck card",
+   "moods": [
+    "sad"
+   ]
+  },
+  {
+   "id": "varga",
+   "desc": "an adult stage caretaker named Mr. Varga, light skin, bushy black moustache, a grey work shirt, a tool belt, work boots",
+   "moods": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "laptop",
+   "object": true,
+   "desc": "open laptop on a little sound desk with a USB stick plugged in"
+  }
+ ],
+ "icons": [
+  {
+   "name": "usb",
+   "desc": "a pink USB stick"
+  },
+  {
+   "name": "duck",
+   "desc": "a yellow rubber duck with a music note"
+  },
+  {
+   "name": "music",
+   "desc": "two music notes"
+  }
+ ]
+}

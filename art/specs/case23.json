@@ -1,0 +1,50 @@
+{
+ "case": "case23",
+ "bg": "A wide 16:9 view of a clean underground subway platform: a long platform with a yellow safety line, a train tunnel on the right, tiled walls with a city map, a small tea kiosk, a wooden bench, a row of ticket gates on the left, an open guitar case on the floor near a pillar, bright station lights.",
+ "chars": [
+  {
+   "id": "gallo",
+   "desc": "an adult street musician named Mr. Gallo, Italian, olive skin, a brown beard, a flat cap, a patched corduroy jacket, a scarf, holding a cup of tea",
+   "moods": [
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "lucia",
+   "desc": "a 10 year old girl named Lucia, Latina, tan skin, two dark brown braids, a purple coat, a backpack covered in gold star stickers",
+   "moods": [
+    "happy",
+    "sad"
+   ]
+  },
+  {
+   "id": "dmitri",
+   "desc": "a 10 year old boy named Dmitri, Russian, light skin, straight blond hair, a blue puffer jacket, a subway pass on a lanyard",
+   "moods": [
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "grimsby",
+   "desc": "an older grumpy man named Mr. Grimsby, light skin, bushy grey eyebrows, a brown flat cap, a long beige raincoat, a folded newspaper",
+   "moods": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "wen",
+   "desc": "an adult woman named Wen, Chinese, light skin, black hair in a low ponytail, a red kiosk apron over a white shirt, holding a teapot",
+   "moods": [
+    "happy"
+   ]
+  },
+  {
+   "id": "gates",
+   "object": true,
+   "desc": "small screen on top of a subway ticket gate showing a list of taps"
+  }
+ ],
+ "icons": []
+}

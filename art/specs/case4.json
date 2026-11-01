@@ -1,0 +1,68 @@
+{
+ "case": "case4",
+ "bg": "A wide 16:9 view of a bright family kitchen during a birthday party, colourful balloons and a paper garland on the back wall, kitchen counter with a mixing bowl, a sugar bowl and a cake tin on the left, a tall cupboard with a high top shelf, a window showing a sunny garden with a party table in the middle, a fridge on the right.",
+ "chars": [
+  {
+   "id": "mom",
+   "desc": "an adult mother, medium brown skin, black hair in a bun with a headband, a flowery apron over a light blue dress, a little flour on her cheek, slippers",
+   "moods": [
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "grandma",
+   "desc": "a kind grandmother, light skin, short curly white hair, round glasses, a lilac cardigan over a long skirt, comfy shoes",
+   "moods": [
+    "happy",
+    "thinking"
+   ]
+  },
+  {
+   "id": "lily",
+   "desc": "an 8 year old girl named Lily, medium brown skin, black hair in two puffs, a paper party crown, a pink party dress, white shoes",
+   "moods": [
+    "happy",
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "eli",
+   "desc": "a 9 year old boy named Eli, light skin, messy blond hair, a green dinosaur t-shirt, shorts, sneakers",
+   "moods": [
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "zoe",
+   "desc": "a 9 year old girl named Zoe, dark brown skin, braids with yellow beads, a yellow t-shirt with a star, denim skirt, sneakers",
+   "moods": [
+    "sad"
+   ]
+  },
+  {
+   "id": "ray",
+   "desc": "a cheerful adult uncle named Ray, tan skin, short black hair, thick black moustache, a loud Hawaiian shirt with flowers, khaki shorts, sandals",
+   "moods": [
+    "happy",
+    "thinking"
+   ]
+  }
+ ],
+ "icons": [
+  {
+   "name": "sugar",
+   "desc": "a white sugar bowl with a little spoon"
+  },
+  {
+   "name": "shelf",
+   "desc": "a high wooden kitchen shelf with a box of salt on it"
+  },
+  {
+   "name": "photo",
+   "desc": "an instant photo of three kids in a garden"
+  }
+ ]
+}

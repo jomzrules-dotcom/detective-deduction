@@ -1,0 +1,62 @@
+{
+ "case": "case14",
+ "bg": "A wide 16:9 view inside a big glass greenhouse at a flower show: glass walls and a glass roof with one small roof window, long wooden tables of potted flowers and orchids along the back wall, an empty spot on a table with a name card, a rose bush against the glass wall, a wooden door with a padlock on the left, string lights.",
+ "chars": [
+  {
+   "id": "ito",
+   "desc": "an older woman orchid grower named Mrs. Ito, Japanese, light skin, short grey hair, a wide sun hat, a flowery gardening apron, rubber boots",
+   "moods": [
+    "sad",
+    "happy"
+   ]
+  },
+  {
+   "id": "kerr",
+   "desc": "an older man named Mr. Kerr, light skin, white hair and a neat white moustache, a tweed waistcoat over a white shirt with an orange stain on one cuff, a fresh scratch on one forearm, brown trousers",
+   "moods": [
+    "happy",
+    "thinking"
+   ]
+  },
+  {
+   "id": "rosie",
+   "desc": "a 10 year old girl named Rosie, light brown skin, two black braids, a green volunteer t-shirt, denim overalls, holding a small watering can",
+   "moods": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "dunn",
+   "desc": "an adult gardener named Mr. Dunn, dark brown skin, bald, green work overalls, a big ring of keys on his belt, gardening gloves",
+   "moods": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "jonah",
+   "desc": "a 15 year old boy named Jonah, light skin, shaggy brown hair, a yellow festival staff t-shirt, cargo shorts, sneakers",
+   "moods": [
+    "sad"
+   ]
+  },
+  {
+   "id": "gatelog",
+   "object": true,
+   "desc": "clipboard gate log list hanging on a small wooden gate post"
+  }
+ ],
+ "icons": [
+  {
+   "name": "orchid",
+   "desc": "a bright orange orchid flower in a pot"
+  },
+  {
+   "name": "ladder",
+   "desc": "a wooden ladder"
+  },
+  {
+   "name": "roofwindow",
+   "desc": "a small open glass roof window"
+  }
+ ]
+}

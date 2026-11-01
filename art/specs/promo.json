@@ -1,0 +1,27 @@
+{
+ "case": "promo",
+ "chars": [
+  {
+   "id": "chief",
+   "desc": "an adult police chief detective, a kind older woman, brown skin, short grey curly hair, a long navy detective coat with a shiny gold badge, smart shoes",
+   "moods": [
+    "happy"
+   ]
+  }
+ ],
+ "icons": [
+  {
+   "name": "badge_neighborhood",
+   "desc": "a round bronze detective badge with a little house in the middle and a ribbon"
+  },
+  {
+   "name": "badge_town",
+   "desc": "a silver star-shaped detective badge with a little town hall in the middle and a ribbon"
+  },
+  {
+   "name": "badge_city",
+   "desc": "a gold shield-shaped detective badge with little city towers in the middle and a ribbon"
+  }
+ ],
+ "iconSize": 512
+}

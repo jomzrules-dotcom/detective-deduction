@@ -1,0 +1,49 @@
+{
+ "case": "case25",
+ "chars": [
+  {
+   "id": "mbatha",
+   "desc": "an adult woman named Ms. Mbatha, South African, dark brown skin, long braids in a bun, a yellow dress, holding a phone showing a photo",
+   "moods": [
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "anders",
+   "desc": "an adult man named Anders, Swedish, pale skin, blond hair, a stubble beard, a green scarf, a travel jacket, a phone in his hand",
+   "moods": [
+    "happy",
+    "sad"
+   ]
+  },
+  {
+   "id": "haddad",
+   "desc": "an adult man baker named Mr. Haddad, Lebanese, olive skin, a thick black moustache, a white chef jacket and tall chef hat, flour on his hands",
+   "moods": [
+    "sad"
+   ]
+  },
+  {
+   "id": "hugo",
+   "desc": "a 13 year old boy named Hugo, French, light skin, curly brown hair, a green flower-stall apron, holding a bunch of tulips",
+   "moods": [
+    "happy",
+    "thinking"
+   ]
+  },
+  {
+   "id": "ruiz",
+   "desc": "an adult woman named Ms. Ruiz, Mexican, tan skin, shoulder-length black hair, a denim jacket, holding a white cake box",
+   "moods": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "hallcam",
+   "object": true,
+   "desc": "small security camera fixed under a big round hall clock"
+  }
+ ],
+ "icons": []
+}

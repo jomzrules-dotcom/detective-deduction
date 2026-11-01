@@ -1,0 +1,73 @@
+{
+ "case": "case7",
+ "bg": "A wide 16:9 view of the front of a small friendly train station on a sunny evening, the station building with a ticket window on the left, a station clock on the wall, a long bike rack with a few bikes along the back wall, a flower stall with buckets of flowers on the right, a bench by the wall. The paved station square in the lower half is empty.",
+ "chars": [
+  {
+   "id": "noah",
+   "desc": "a 12 year old boy named Noah, dark brown skin, short black hair, a blue cycling jacket, a bike helmet clipped to his backpack, black trousers, sneakers",
+   "moods": [
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "worker",
+   "desc": "an adult station worker, light skin, short brown hair, a navy railway uniform with a cap and a red tie, black trousers",
+   "moods": [
+    "happy",
+    "thinking"
+   ]
+  },
+  {
+   "id": "seller",
+   "desc": "an elderly flower seller woman, light brown skin, white hair in a bun, a green shawl, a long brown skirt, an apron with flowers in the pocket",
+   "moods": [
+    "happy",
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "tariq",
+   "desc": "a 12 year old boy named Tariq, light brown skin, short wavy black hair, a red football shirt, black track trousers, sneakers",
+   "moods": [
+    "sad"
+   ]
+  },
+  {
+   "id": "bea",
+   "desc": "a 12 year old girl named Bea, light skin, freckles, ginger hair in a high ponytail, a purple windbreaker, jeans, sneakers",
+   "moods": [
+    "happy",
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "finn",
+   "desc": "a 12 year old boy named Finn, light skin, blond side-swept hair, a grey hoodie, black cycling gloves, jeans, sneakers",
+   "moods": [
+    "happy",
+    "thinking"
+   ]
+  }
+ ],
+ "icons": [
+  {
+   "name": "bike",
+   "desc": "a blue bicycle"
+  },
+  {
+   "name": "ticket",
+   "desc": "a yellow train ticket"
+  },
+  {
+   "name": "bench",
+   "desc": "a wooden bench"
+  },
+  {
+   "name": "grease",
+   "desc": "a child hand with black bike-chain grease on the fingers"
+  }
+ ]
+}

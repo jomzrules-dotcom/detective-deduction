@@ -1,0 +1,65 @@
+{
+ "case": "case8",
+ "bg": "A wide 16:9 view of the inside of a small friendly corner shop, shelves full of colourful snacks and drinks along the back wall, a shop counter with a cash register and a small camera on a pole on the right, a fridge with drinks on the left, a door with a little bell. The shop floor in the lower half is empty.",
+ "chars": [
+  {
+   "id": "dao",
+   "desc": "an elderly shop owner woman named Mrs. Dao, Vietnamese, light skin, grey hair in a neat bun, reading glasses on a chain, a burgundy cardigan, black trousers",
+   "moods": [
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "receipt",
+   "desc": "long curly paper receipt roll coming out of a small receipt printer",
+   "object": true,
+   "moods": []
+  },
+  {
+   "id": "camera",
+   "desc": "small white security camera on a short pole",
+   "object": true,
+   "moods": []
+  },
+  {
+   "id": "yuki",
+   "desc": "a young adult shop worker named Yuki, Japanese, light skin, short black bob, a green shop apron over a white t-shirt, jeans",
+   "moods": [
+    "happy",
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "pedro",
+   "desc": "an adult shop worker named Pedro, tan skin, short curly black hair and stubble, a green shop apron over a blue t-shirt, jeans",
+   "moods": [
+    "happy",
+    "sad"
+   ]
+  },
+  {
+   "id": "sofia",
+   "desc": "an adult shop worker named Sofia, light skin, long wavy brown hair, small gold hoop earrings, a green shop apron over a red top, black trousers",
+   "moods": [
+    "happy",
+    "thinking"
+   ]
+  }
+ ],
+ "icons": [
+  {
+   "name": "money",
+   "desc": "a small stack of green banknotes and coins"
+  },
+  {
+   "name": "calendar",
+   "desc": "a wall calendar page with coloured boxes"
+  },
+  {
+   "name": "sign",
+   "desc": "a clipboard sheet with two signatures as squiggly lines"
+  }
+ ]
+}

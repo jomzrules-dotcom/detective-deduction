@@ -1,0 +1,63 @@
+{
+ "case": "case12",
+ "bg": "A wide 16:9 view of a town park by a lake on a sunny festival day: a wide green lawn and gravel area in front, a calm lake with a small wooden jetty in the back, big trees, a white festival tent and colourful bunting, a balloon finish-line arch on the left, a small pond with reeds on the far right, distant picnic tables.",
+ "chars": [
+  {
+   "id": "patel",
+   "desc": "an adult festival organiser named Ms. Patel, Indian, brown skin, long black hair in a braid, a bright yellow festival staff t-shirt, a lanyard, holding a clipboard, trousers, sneakers",
+   "moods": [
+    "happy",
+    "thinking"
+   ]
+  },
+  {
+   "id": "gus",
+   "desc": "a 15 year old boy named Gus, light skin, curly ginger hair, a green volunteer vest over a white t-shirt, holding a stack of paper cups, shorts, sneakers",
+   "moods": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "rafe",
+   "desc": "a 12 year old boy named Rafe, light skin, spiky black hair, a red running vest with a race number, black shorts, perfectly clean dry white running shoes",
+   "moods": [
+    "happy",
+    "thinking"
+   ]
+  },
+  {
+   "id": "elsa",
+   "desc": "a 12 year old girl named Elsa, brown skin, black hair in two puffs, a purple running vest with a race number, shorts, wet muddy running shoes",
+   "moods": [
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "marco",
+   "desc": "a 12 year old boy named Marco, olive skin, short wavy brown hair, a blue running vest with a race number, shorts, wet muddy running shoes",
+   "moods": [
+    "happy"
+   ]
+  },
+  {
+   "id": "timing",
+   "object": true,
+   "desc": "black rubber race timing mat with a little digital screen box"
+  }
+ ],
+ "icons": [
+  {
+   "name": "stopwatch",
+   "desc": "a stopwatch"
+  },
+  {
+   "name": "shoe",
+   "desc": "a clean dry white running shoe"
+  },
+  {
+   "name": "stream",
+   "desc": "a shallow blue stream with stones"
+  }
+ ]
+}

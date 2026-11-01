@@ -1,0 +1,57 @@
+{
+ "case": "case26",
+ "bg": "A wide 16:9 view of a sunny rooftop garden on a city building: wooden planters with vegetables, a big empty planter marked 4 in front, a small garden shed on the right, tomato beds on the far side, a city skyline behind a railing, a gate with a sign, bright blue sky.",
+ "chars": [
+  {
+   "id": "abiodun",
+   "desc": "an adult woman contest judge named Mrs. Abiodun, Nigerian, dark brown skin, a colourful head wrap, a green garden dress, a judge's ribbon rosette, a clipboard",
+   "moods": [
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "halvorsen",
+   "desc": "an adult woman named Mrs. Halvorsen, Norwegian, pale skin, long straight blonde hair, a light blue raincoat, a sun hat",
+   "moods": [
+    "happy",
+    "thinking"
+   ]
+  },
+  {
+   "id": "keiko",
+   "desc": "a 9 year old girl named Keiko, Japanese, light skin, shoulder-length black hair worn loose, a pink t-shirt with a pumpkin on it, dungarees, soil on her knees",
+   "moods": [
+    "happy",
+    "thinking"
+   ]
+  },
+  {
+   "id": "ueda",
+   "desc": "an older man gardener named Mr. Ueda, Japanese, light skin, a short white beard, a straw hat, a brown work apron, holding a rake",
+   "moods": [
+    "happy",
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "otto",
+   "desc": "a 15 year old boy named Otto, German, light skin, red hair, freckles, a volunteer t-shirt, rubber boots, holding a garden hose",
+   "moods": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "roofcam",
+   "object": true,
+   "desc": "small weatherproof camera on a pole above a garden planter"
+  }
+ ],
+ "icons": [
+  {
+   "name": "pumpkin",
+   "desc": "a big orange pumpkin"
+  }
+ ]
+}

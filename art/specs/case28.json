@@ -1,0 +1,54 @@
+{
+ "case": "case28",
+ "chars": [
+  {
+   "id": "ferro",
+   "desc": "an adult woman florist named Ms. Ferro, Italian, olive skin, dark hair in a messy bun, a pink florist apron, holding a big bunch of red roses",
+   "moods": [
+    "happy",
+    "thinking"
+   ]
+  },
+  {
+   "id": "wainwright",
+   "desc": "an adult woman named Mrs. Wainwright, English, pale skin, silver bob haircut, a smart navy dress, a party invitation card in her hand",
+   "moods": [
+    "happy"
+   ]
+  },
+  {
+   "id": "kenji",
+   "desc": "a 15 year old boy named Kenji, Japanese, light skin, spiky black hair, a black t-shirt, a skateboard under his arm",
+   "moods": [
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "dube",
+   "desc": "an older woman named Mrs. Dube, Zimbabwean, dark brown skin, white hair in a neat bun, a red knitted shawl, reading glasses",
+   "moods": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "lund",
+   "desc": "an adult man named Mr. Lund, Danish, pale skin, light brown hair, a sweaty running shirt and shorts, a sports watch",
+   "moods": [
+    "happy",
+    "thinking"
+   ]
+  },
+  {
+   "id": "liftlog",
+   "object": true,
+   "desc": "brass lift panel with a small screen showing a list of floors and times"
+  }
+ ],
+ "icons": [
+  {
+   "name": "rose",
+   "desc": "a single red rose"
+  }
+ ]
+}

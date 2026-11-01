@@ -1,0 +1,77 @@
+{
+ "case": "case20",
+ "chars": [
+  {
+   "id": "thorne",
+   "desc": "an adult camp leader named Mr. Thorne, light skin, brown beard, a wide-brimmed scout hat, a khaki shirt and shorts, a whistle",
+   "moods": [
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "kat",
+   "desc": "a 16 year old girl named Kat, East Asian, light skin, black hair in a high bun, a camp kitchen apron over a green camp shirt",
+   "moods": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "lukas",
+   "desc": "a 9 year old boy named Lukas, light skin, very short and small, blond hair, a blue camp jacket, shorts, hiking boots",
+   "moods": [
+    "happy",
+    "thinking"
+   ]
+  },
+  {
+   "id": "esme",
+   "desc": "a 13 year old girl named Esme, dark brown skin, very tall for her age, long black braids, a red camp jacket, shorts, hiking boots, a small plaster on one finger",
+   "moods": [
+    "sad"
+   ]
+  },
+  {
+   "id": "freya",
+   "desc": "a 12 year old girl named Freya, light skin, short blonde hair, a red camp jacket, an orange life jacket over it",
+   "moods": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "vivi",
+   "desc": "a 12 year old girl named Vivi, brown skin, wavy black hair, a red camp jacket, an orange life jacket over it",
+   "moods": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "dario",
+   "desc": "a 16 year old boy named Dario, olive skin, short curly black hair, a blue camp jacket, a first-aid bag with a red cross",
+   "moods": []
+  },
+  {
+   "id": "board",
+   "object": true,
+   "desc": "wooden camp sign-out board with little pegs"
+  }
+ ],
+ "icons": [
+  {
+   "name": "map",
+   "desc": "a treasure map with an X"
+  },
+  {
+   "name": "jacket",
+   "desc": "a red camp jacket with a hood"
+  },
+  {
+   "name": "stick",
+   "desc": "a sharpened marshmallow stick"
+  },
+  {
+   "name": "canoe",
+   "desc": "a small canoe"
+  }
+ ]
+}

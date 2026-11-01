@@ -1,0 +1,58 @@
+{
+ "case": "case29",
+ "chars": [
+  {
+   "id": "fontaine",
+   "desc": "an adult man floor manager named Mr. Fontaine, French, light skin, slick dark hair, a grey suit with a red store tie and a name badge",
+   "moods": [
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "ortega",
+   "desc": "an older woman named Mrs. Ortega, Colombian, tan skin, curly grey hair, a bright orange cardigan, a shopping bag",
+   "moods": [
+    "happy",
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "sorensen",
+   "desc": "an adult woman named Ms. Sorensen, Danish, pale skin, a tidy blonde bun, a red store vest with a senior badge, a calm smile",
+   "moods": [
+    "happy"
+   ]
+  },
+  {
+   "id": "yusuf",
+   "desc": "a young adult man named Yusuf, Somali, dark brown skin, short hair, a red store vest with a shiny new floor-lead badge",
+   "moods": [
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "hosseini",
+   "desc": "an adult man named Mr. Hosseini, Iranian, olive skin, a short black beard, a warehouse jacket, holding a clipboard",
+   "moods": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "kemp",
+   "desc": "an adult woman named Ms. Kemp, Australian, light skin, curly red hair, a red store vest, holding a spinning toy top",
+   "moods": [
+    "happy",
+    "thinking"
+   ]
+  },
+  {
+   "id": "badgelog",
+   "object": true,
+   "desc": "badge reader on a staff door with a small green screen"
+  }
+ ],
+ "icons": []
+}

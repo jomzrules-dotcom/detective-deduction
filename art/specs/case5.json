@@ -1,0 +1,65 @@
+{
+ "case": "case5",
+ "bg": "A wide 16:9 view of the front of a bright school art room, a big colourful class mural of a park on the back wall with a large splash of blue paint across it, a tall paint cabinet with a padlock on the left, easels and jars of brushes along the left wall, big windows with a stormy grey sky on the right, a door on the far right.",
+ "chars": [
+  {
+   "id": "teacher",
+   "desc": "an adult art teacher, dark brown skin, short natural afro hair, a paint-splattered blue smock over a yellow shirt, green trousers, a pencil behind one ear",
+   "moods": [
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "janitor",
+   "desc": "an adult school janitor, light skin, grey hair and a grey beard, navy blue overalls, holding nothing, work boots",
+   "moods": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "office",
+   "desc": "an adult office assistant, South Asian, light brown skin, long black hair, a teal cardigan, a lanyard with keys around the neck, smart trousers",
+   "moods": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "theo",
+   "desc": "an 11 year old boy named Theo, light skin, short brown hair, a red t-shirt, blue jeans, sneakers",
+   "moods": [
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "nora",
+   "desc": "an 11 year old girl named Nora, light skin, long red braid, freckles, a green paint-smudged art shirt, leggings, sneakers",
+   "moods": [
+    "sad"
+   ]
+  },
+  {
+   "id": "iris",
+   "desc": "a 10 year old girl named Iris, light skin, short brown bob with a red hairband, a red and white striped top, a denim skirt, sneakers",
+   "moods": [
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "kai",
+   "desc": "an 11 year old boy named Kai, East Asian, light skin, short black hair with a side fringe, an orange hoodie, grey trousers, sneakers",
+   "moods": [
+    "happy",
+    "thinking"
+   ]
+  }
+ ],
+ "icons": [
+  {
+   "name": "paint",
+   "desc": "an open tin of blue paint with a drip down the side"
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "case": "case30",
+ "chars": [
+  {
+   "id": "ribeiro",
+   "desc": "an adult man bandleader named Mr. Ribeiro, Brazilian, tan skin, wavy black hair, a sparkly purple band jacket, a trumpet, dirty red soil on his shoes",
+   "moods": [
+    "happy",
+    "thinking"
+   ]
+  },
+  {
+   "id": "achebe",
+   "desc": "an adult woman named Ms. Achebe, Nigerian, dark brown skin, short natural hair, a flower-patterned apron, holding a coffee cup",
+   "moods": [
+    "happy",
+    "sad"
+   ]
+  },
+  {
+   "id": "kwame",
+   "desc": "a 10 year old boy named Kwame, Ghanaian, dark brown skin, short hair, a green football shirt, a visitor pass on a lanyard",
+   "moods": [
+    "happy"
+   ]
+  },
+  {
+   "id": "yilmaz",
+   "desc": "an adult man market cleaner named Mr. Yilmaz, Turkish, olive skin, a big black moustache, a grey cleaner's uniform, a broom",
+   "moods": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "delphine",
+   "desc": "an adult woman ceremony host named Ms. Delphine, Haitian, dark brown skin, long braids, a smart red dress, holding a microphone",
+   "moods": [
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "roofgate",
+   "object": true,
+   "desc": "metal rooftop gate with a pass reader and a small screen"
+  }
+ ],
+ "icons": []
+}

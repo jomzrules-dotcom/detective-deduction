@@ -1,0 +1,70 @@
+{
+ "case": "case15",
+ "chars": [
+  {
+   "id": "moreau",
+   "desc": "an adult PE teacher named Ms. Moreau, light skin, short brown hair, a red tracksuit, a whistle around her neck",
+   "moods": [
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "haas",
+   "desc": "an older park keeper named Mr. Haas, light skin, white beard, a dark green park keeper uniform and cap, holding a long fishing net",
+   "moods": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "lotte",
+   "desc": "an adult parent named Lotte, Black, dark skin, long braids, a denim jacket, a big camera around her neck",
+   "moods": [
+    "happy"
+   ]
+  },
+  {
+   "id": "gil",
+   "desc": "a 11 year old boy named Gil, light skin, short sandy hair, a blue team shirt, white shorts and white socks that are wet and muddy up to the knees, sneakers",
+   "moods": [
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "saskia",
+   "desc": "a 11 year old girl named Saskia, light skin, long blonde ponytail, a blue team shirt, black shorts, sneakers",
+   "moods": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "marlo",
+   "desc": "a 11 year old boy named Marlo, brown skin, short black curly hair, a yellow team shirt, shorts, sneakers",
+   "moods": [
+    "happy"
+   ]
+  },
+  {
+   "id": "pip",
+   "desc": "a 7 year old boy named Pip, East Asian, light skin, round face, black bowl haircut, a little chocolate on his cheek, a green t-shirt with a dinosaur, shorts",
+   "moods": [
+    "sad"
+   ]
+  }
+ ],
+ "icons": [
+  {
+   "name": "medal",
+   "desc": "a gold medal on a blue ribbon"
+  },
+  {
+   "name": "pond",
+   "desc": "a small pond with reeds"
+  },
+  {
+   "name": "chocolate",
+   "desc": "a half-eaten chocolate bar"
+  }
+ ]
+}

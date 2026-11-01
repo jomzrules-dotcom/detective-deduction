@@ -1,0 +1,60 @@
+{
+ "case": "case19",
+ "chars": [
+  {
+   "id": "lindqvist",
+   "desc": "an old man named Mr. Lindqvist, light skin, bald with white side hair, a brown cardigan, holding a newspaper",
+   "moods": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "petra",
+   "desc": "a 15 year old girl named Petra, light skin, long straight black hair, a green volunteer badge on a white top, a long cardigan, carrying a tote bag",
+   "moods": [
+    "happy",
+    "thinking"
+   ]
+  },
+  {
+   "id": "ezra",
+   "desc": "an adult book collector named Ezra, Black, dark skin, short grey beard, a tweed jacket, round glasses",
+   "moods": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "hollis",
+   "desc": "an adult teacher named Ms. Hollis, light skin, short curly brown hair, a teal sweater, holding a folder of papers",
+   "moods": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "dot",
+   "desc": "a 9 year old girl named Dot, brown skin, two little puffs of hair with ribbons, a yellow dress, holding a picture book",
+   "moods": [
+    "happy"
+   ]
+  },
+  {
+   "id": "doorlog",
+   "object": true,
+   "desc": "small library door counter machine with a little screen"
+  }
+ ],
+ "icons": [
+  {
+   "name": "wallclock",
+   "desc": "a round wall clock"
+  },
+  {
+   "name": "book",
+   "desc": "a book with a gold star sticker"
+  },
+  {
+   "name": "greenbadge",
+   "desc": "a green volunteer badge"
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "case": "case18",
+ "bg": "A wide 16:9 view inside a small family bakery on a town square: a wooden counter with bread and cakes on the back wall side, shelves of loaves, a big shop window on the right showing a new modern bridge over a river, a blank chalkboard, festival bunting.",
+ "chars": [
+  {
+   "id": "henrik",
+   "desc": "an old baker named Grandpa Henrik, light skin, white hair, bushy white eyebrows, a white baker apron with flour on it, a cane",
+   "moods": [
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "arendt",
+   "desc": "an adult lawyer named Ms. Arendt, light skin, sleek black bob, a grey suit, holding a folder",
+   "moods": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "vic",
+   "desc": "an adult man named Vic, light skin, slicked back brown hair, a shiny blue jacket, a gold watch, pointy shoes",
+   "moods": [
+    "happy",
+    "thinking"
+   ]
+  },
+  {
+   "id": "joel",
+   "desc": "a 12 year old boy named Joel, light skin, brown hair with a cowlick, a red hoodie, jeans, sneakers",
+   "moods": [
+    "sad"
+   ]
+  },
+  {
+   "id": "tilly",
+   "desc": "a 16 year old girl named Tilly, light skin, freckles, curly auburn hair tied up, a white apron with flour, a baker cap",
+   "moods": [
+    "sad"
+   ]
+  },
+  {
+   "id": "alvaro",
+   "desc": "an adult baker named Mr. Alvaro, Latino, tan skin, a big black moustache, a white baker uniform and tall baker hat",
+   "moods": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "letter",
+   "object": true,
+   "desc": "old-looking paper letter stained brown with tea on the front"
+  }
+ ],
+ "icons": [
+  {
+   "name": "letter",
+   "desc": "a tea-stained old letter"
+  },
+  {
+   "name": "bridge",
+   "desc": "a modern new bridge"
+  },
+  {
+   "name": "bread",
+   "desc": "a small drawing of a loaf of bread"
+  },
+  {
+   "name": "tea",
+   "desc": "a cup of tea"
+  }
+ ]
+}

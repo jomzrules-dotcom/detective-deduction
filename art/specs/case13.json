@@ -1,0 +1,48 @@
+{
+ "case": "case13",
+ "chars": [
+  {
+   "id": "chen",
+   "desc": "an adult picture framer named Mrs. Chen, East Asian, light skin, black hair in a low bun, a brown work apron, holding a magnifying glass",
+   "moods": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "greta",
+   "desc": "a young adult town hall assistant named Greta, light skin, blonde hair in a messy bun, a beige cardigan over a white blouse, dark trousers, one fingernail with blue paint under it",
+   "moods": [
+    "happy",
+    "thinking"
+   ]
+  },
+  {
+   "id": "sami",
+   "desc": "an adult cleaner named Sami, North African, light brown skin, short black hair and a short beard, a grey cleaning uniform, yellow rubber gloves",
+   "moods": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "ollie",
+   "desc": "a 14 year old boy named Ollie, dark brown skin, short twists, a red beanie, a striped shirt, holding a sketchbook and a pencil",
+   "moods": [
+    "sad"
+   ]
+  }
+ ],
+ "icons": [
+  {
+   "name": "painting",
+   "desc": "a framed painting of a blue harbour"
+  },
+  {
+   "name": "brush",
+   "desc": "a paintbrush with blue paint on the tip"
+  },
+  {
+   "name": "sketch",
+   "desc": "an open sketchbook with a pencil drawing"
+  }
+ ]
+}

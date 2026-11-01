@@ -1,0 +1,67 @@
+{
+ "case": "case6",
+ "bg": "A wide 16:9 view of the front of a small family house with a cheerful front garden on a sunny late afternoon, a red front door, a porch, flower beds along the house, a low white picket fence along the back with a white garden gate standing wide open on the right, a neighbour balcony with plants on the left, a quiet street with a house across it in the distance. The front lawn and path in the lower half are empty.",
+ "chars": [
+  {
+   "id": "mom",
+   "desc": "an adult mother, light skin, short blond hair, a striped navy and white top, jeans, sneakers, holding an empty dog leash",
+   "moods": [
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "neighbor",
+   "desc": "an adult neighbour woman, dark brown skin, grey short hair, a sun hat, a flowery gardening apron, green gardening gloves, rubber boots",
+   "moods": [
+    "happy",
+    "thinking"
+   ]
+  },
+  {
+   "id": "grandpa",
+   "desc": "a grandfather, East Asian, light skin, white hair, round glasses, a brown knitted vest over a white shirt, slippers, holding a cup of tea",
+   "moods": [
+    "happy",
+    "thinking"
+   ]
+  },
+  {
+   "id": "ivan",
+   "desc": "a 14 year old boy named Ivan, light skin, longer messy dark hair, gaming headphones around his neck, a black t-shirt, cargo trousers, sneakers",
+   "moods": [
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "pia",
+   "desc": "an 8 year old girl named Pia, medium brown skin, curly black hair in two bunches, a yellow raincoat, red rubber boots",
+   "moods": [
+    "happy"
+   ]
+  },
+  {
+   "id": "luis",
+   "desc": "an adult mail carrier named Luis, tan skin, short black hair, a blue mail carrier uniform shirt and shorts with a cap, a mail bag across his chest, sneakers",
+   "moods": [
+    "sad",
+    "thinking"
+   ]
+  }
+ ],
+ "icons": [
+  {
+   "name": "dog",
+   "desc": "a happy small brown dog with floppy ears"
+  },
+  {
+   "name": "box",
+   "desc": "a cardboard parcel"
+  },
+  {
+   "name": "gate",
+   "desc": "a white wooden garden gate standing open"
+  }
+ ]
+}

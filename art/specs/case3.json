@@ -1,0 +1,73 @@
+{
+ "case": "case3",
+ "bg": "A wide 16:9 view of the inside of a small cosy cafe, the front counter with a coffee machine, a cake display and a cash register on the left, a big window with the street outside in the middle, a chalkboard-style menu board with drawings only (no words) above the counter, small round tables and chairs pushed against the right wall, a ceiling camera dome above the counter, warm wooden floor.",
+ "chars": [
+  {
+   "id": "tom",
+   "desc": "a friendly adult man named Tom, light skin, short ginger hair and a short ginger beard, blue checked shirt, beige chinos, brown shoes",
+   "moods": [
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "owner",
+   "desc": "the adult cafe owner, a woman with medium brown skin, black curly hair in a puff, a green apron over a white top, black trousers, comfy shoes",
+   "moods": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "cashier",
+   "desc": "a young adult cashier, East Asian, light skin, long black hair in a low ponytail, a red cafe polo shirt with a name badge without text, black trousers",
+   "moods": [
+    "happy",
+    "thinking"
+   ]
+  },
+  {
+   "id": "jun",
+   "desc": "a young adult waiter named Jun, East Asian, light skin, short spiky black hair, white shirt with a black waistcoat and a black waiter apron, black trousers",
+   "moods": [
+    "sad"
+   ]
+  },
+  {
+   "id": "rosa",
+   "desc": "an adult woman named Rosa, tan skin, wavy dark brown shoulder-length hair, big round sunglasses pushed up on her head, a mustard yellow coat, a brown handbag on her shoulder, jeans, ankle boots",
+   "moods": [
+    "happy"
+   ]
+  },
+  {
+   "id": "max",
+   "desc": "an adult man named Max, dark brown skin, bald, round glasses, a grey hoodie, dark jeans, white sneakers",
+   "moods": [
+    "sad",
+    "thinking"
+   ]
+  }
+ ],
+ "icons": [
+  {
+   "name": "wallet",
+   "desc": "a brown leather wallet with a blue elastic band around it"
+  },
+  {
+   "name": "band",
+   "desc": "a single blue elastic band"
+  },
+  {
+   "name": "camera",
+   "desc": "a small white ceiling security camera"
+  },
+  {
+   "name": "cup",
+   "desc": "a full cup of coffee on a saucer"
+  },
+  {
+   "name": "phone",
+   "desc": "a smartphone"
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "case": "case21",
+ "bg": "A wide 16:9 view inside a busy covered city market hall: a high glass-and-iron roof, rows of colourful food stalls with awnings, a dairy stall with cheese wheels and a white cool box on the left, a honey stall with jars, a big round hall clock on the back wall, a back door with a delivery sign on the right, warm afternoon light.",
+ "chars": [
+  {
+   "id": "bello",
+   "desc": "an adult police officer named Officer Bello, a friendly woman, dark brown skin, short black natural hair under a police cap, a navy police uniform with a reflective vest, a notebook in her hand",
+   "moods": [
+    "happy",
+    "thinking"
+   ]
+  },
+  {
+   "id": "nakamura",
+   "desc": "an older woman market manager named Mrs. Nakamura, Japanese, light skin, short grey hair, glasses on a chain, a green market apron over a cardigan, holding a clipboard with the stall list",
+   "moods": [
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "arjun",
+   "desc": "a young adult man named Arjun, Indian, brown skin, short black hair, a white dairy apron and cap, rolled-up sleeves",
+   "moods": [
+    "happy",
+    "thinking"
+   ]
+  },
+  {
+   "id": "rohan",
+   "desc": "a 9 year old boy named Rohan, Indian, brown skin, messy black hair, a yellow t-shirt with cheese crumbs on it, shorts",
+   "moods": [
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "ines",
+   "desc": "an adult woman named Ines, Spanish, olive skin, long wavy brown hair, a striped honey-stall apron, a jar of honey in her hand",
+   "moods": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "dlist",
+   "object": true,
+   "desc": "clipboard with a delivery list hanging on a hook by a back door"
+  }
+ ],
+ "icons": []
+}

@@ -1,0 +1,91 @@
+{
+ "case": "case10",
+ "bg": "A wide 16:9 view of a cosy family dining room in the evening, a long dinner table set with plates against the back wall, a warm hanging lamp, an open doorway to the kitchen on the left with a windowsill visible, a glass balcony door with curtains on the right, family photos as plain frames on the wall. The wooden floor in the lower half is empty.",
+ "chars": [
+  {
+   "id": "grandma",
+   "desc": "a grandmother, South Asian, light brown skin, long grey hair in a braid, a deep red cardigan over a patterned dress",
+   "moods": [
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "grandpa",
+   "desc": "a grandfather, South Asian, light brown skin, bald with a white moustache, glasses, a beige sweater, brown trousers",
+   "moods": [
+    "thinking"
+   ]
+  },
+  {
+   "id": "bo",
+   "desc": "a 5 year old little boy named Bo, light brown skin, short black hair, dinosaur pyjamas, slippers, holding a picture book",
+   "moods": [
+    "happy"
+   ]
+  },
+  {
+   "id": "vera",
+   "desc": "an adult woman named Aunt Vera, light brown skin, sleek black hair, an elegant dark green dress, a pearl necklace, heels",
+   "moods": [
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "theo",
+   "desc": "a 12 year old boy named Theo, light brown skin, short black hair, a white shirt with a small bow tie, dark trousers, smart shoes",
+   "moods": [
+    "happy",
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "june",
+   "desc": "an 11 year old girl named June, light brown skin, long black hair with a sparkly clip, a lilac party dress, white shoes",
+   "moods": [
+    "happy"
+   ]
+  },
+  {
+   "id": "paul",
+   "desc": "an adult man named Uncle Paul, light skin, short brown hair and a beard, a navy blazer over a white shirt, jeans, smart shoes",
+   "moods": [
+    "sad",
+    "thinking"
+   ]
+  },
+  {
+   "id": "amy",
+   "desc": "a young adult babysitter named Amy, light skin, curly blond hair, a yellow cardigan, jeans, sneakers",
+   "moods": [
+    "happy",
+    "sad",
+    "thinking"
+   ]
+  }
+ ],
+ "icons": [
+  {
+   "name": "ring",
+   "desc": "a gold ring with a blue gem"
+  },
+  {
+   "name": "juice",
+   "desc": "a glass of red juice"
+  },
+  {
+   "name": "balcony",
+   "desc": "a glass balcony door"
+  },
+  {
+   "name": "puzzle",
+   "desc": "a jigsaw puzzle piece"
+  },
+  {
+   "name": "book",
+   "desc": "an open picture book"
+  }
+ ]
+}

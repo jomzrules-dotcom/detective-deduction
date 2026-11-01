@@ -5,7 +5,7 @@ const srv=http.createServer((q,s)=>{let u=decodeURIComponent(q.url.split('?')[0]
 (async()=>{const b=await chromium.launch();const p=await b.newPage({viewport:{width:1180,height:820}});
 const errs=[];p.on('pageerror',e=>errs.push(e.message));
 await p.goto('http://localhost:'+(8780+ci)+'/');await p.waitForTimeout(2500);await p.evaluate(()=>Promise.all(CASES.map(ensureCase)));await p.screenshot({path:`/tmp/c${ci+1}_hub.png`});
-await p.evaluate(i=>{loadCase(CASES[i]);S.screen='scene';render();},ci);await p.waitForTimeout(600);await p.screenshot({path:`/tmp/c${ci+1}_scene.png`});
+await p.evaluate(i=>{unlockAll=true;loadCase(CASES[i]);S.screen='scene';render();},ci);await p.waitForTimeout(600);await p.screenshot({path:`/tmp/c${ci+1}_scene.png`});
 const ids=await p.evaluate(()=>order());
 await p.evaluate(id=>startTalk(id),ids[0]);await p.waitForTimeout(2200);await p.screenshot({path:`/tmp/c${ci+1}_t1.png`});
 await p.evaluate(id=>{startTalk(id);},ids[ids.length-1]);await p.waitForTimeout(300);await p.evaluate(()=>ask(1));await p.waitForTimeout(2200);await p.screenshot({path:`/tmp/c${ci+1}_t2.png`});

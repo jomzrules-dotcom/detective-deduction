@@ -24,7 +24,8 @@
   "traindining": "case31/bg.webp",
   "corridor": "case32/bg.webp",
   "platform": "case33/bg.webp",
-  "baggage": "case34/bg.webp"
+  "baggage": "case34/bg.webp",
+  "obscar": "case36/bg.webp"
  },
  "icons": {
   "bag": "icons/bag.webp",
@@ -104,7 +105,9 @@
   "train": "icons/train.webp",
   "snowglobe": "icons/snowglobe.webp",
   "snow": "icons/snow.webp",
-  "suitcase": "icons/suitcase.webp"
+  "suitcase": "icons/suitcase.webp",
+  "pen": "icons/pen.webp",
+  "lantern": "icons/lantern.webp"
  },
  "figures": {
   "bag/ana": {
@@ -933,6 +936,85 @@
   },
   "change/slips": {
    "neutral": "case35/slips_full.webp"
+  },
+  "lake/boyle": {
+   "neutral": "case36/boyle_full.webp",
+   "nervous": "case36/boyle_full_nervous.webp"
+  },
+  "lake/rocha": {
+   "neutral": "case36/rocha_full.webp",
+   "nervous": "case36/rocha_full_nervous.webp"
+  },
+  "lake/tanaka": {
+   "neutral": "case36/tanaka_full.webp",
+   "nervous": "case36/tanaka_full_nervous.webp"
+  },
+  "lake/wren": {
+   "neutral": "case36/wren_full.webp",
+   "nervous": "case36/wren_full_nervous.webp"
+  },
+  "uniform/brandt": {
+   "neutral": "case37/brandt_full.webp",
+   "nervous": "case37/brandt_full_nervous.webp"
+  },
+  "uniform/closetlog": {
+   "neutral": "case37/closetlog_full.webp"
+  },
+  "uniform/halloran": {
+   "neutral": "case37/halloran_full.webp",
+   "nervous": "case37/halloran_full_nervous.webp"
+  },
+  "uniform/ivers": {
+   "neutral": "case37/ivers_full.webp",
+   "nervous": "case37/ivers_full_nervous.webp"
+  },
+  "uniform/mensah": {
+   "neutral": "case37/mensah_full.webp",
+   "nervous": "case37/mensah_full_nervous.webp"
+  },
+  "liars/lena": {
+   "neutral": "case38/lena_full.webp",
+   "nervous": "case38/lena_full_nervous.webp"
+  },
+  "liars/ole": {
+   "neutral": "case38/ole_full.webp",
+   "nervous": "case38/ole_full_nervous.webp"
+  },
+  "liars/sato": {
+   "neutral": "case38/sato_full.webp",
+   "nervous": "case38/sato_full_nervous.webp"
+  },
+  "liars/vance": {
+   "neutral": "case38/vance_full.webp",
+   "nervous": "case38/vance_full_nervous.webp"
+  },
+  "stub/bianchi": {
+   "neutral": "case39/bianchi_full.webp",
+   "nervous": "case39/bianchi_full_nervous.webp"
+  },
+  "stub/galloway": {
+   "neutral": "case39/galloway_full.webp",
+   "nervous": "case39/galloway_full_nervous.webp"
+  },
+  "stub/nyberg": {
+   "neutral": "case39/nyberg_full.webp",
+   "nervous": "case39/nyberg_full_nervous.webp"
+  },
+  "lantern/albrecht": {
+   "neutral": "case40/albrecht_full.webp",
+   "nervous": "case40/albrecht_full_nervous.webp"
+  },
+  "lantern/lindahl": {
+   "neutral": "case40/lindahl_full.webp",
+   "nervous": "case40/lindahl_full_nervous.webp"
+  },
+  "lantern/pereira": {
+   "neutral": "case40/pereira_full.webp",
+   "nervous": "case40/pereira_full_nervous.webp"
+  },
+  "lantern/rune": {
+   "neutral": "case40/rune_full.webp",
+   "nervous": "case40/rune_full_nervous.webp"
   }
  },
  "portraits": {
@@ -2079,6 +2161,121 @@
   },
   "change/slips": {
    "neutral": "case35/slips_bust.webp"
+  },
+  "lake/boyle": {
+   "neutral": "case36/boyle_bust.webp",
+   "nervous": "case36/boyle_bust_nervous.webp",
+   "sad": "case36/boyle_bust_sad.webp",
+   "thinking": "case36/boyle_bust_thinking.webp"
+  },
+  "lake/rocha": {
+   "neutral": "case36/rocha_bust.webp",
+   "happy": "case36/rocha_bust_happy.webp",
+   "nervous": "case36/rocha_bust_nervous.webp",
+   "thinking": "case36/rocha_bust_thinking.webp"
+  },
+  "lake/tanaka": {
+   "neutral": "case36/tanaka_bust.webp",
+   "nervous": "case36/tanaka_bust_nervous.webp",
+   "sad": "case36/tanaka_bust_sad.webp",
+   "thinking": "case36/tanaka_bust_thinking.webp"
+  },
+  "lake/wren": {
+   "neutral": "case36/wren_bust.webp",
+   "happy": "case36/wren_bust_happy.webp",
+   "nervous": "case36/wren_bust_nervous.webp",
+   "sad": "case36/wren_bust_sad.webp"
+  },
+  "uniform/brandt": {
+   "neutral": "case37/brandt_bust.webp",
+   "happy": "case37/brandt_bust_happy.webp",
+   "nervous": "case37/brandt_bust_nervous.webp",
+   "sad": "case37/brandt_bust_sad.webp",
+   "thinking": "case37/brandt_bust_thinking.webp"
+  },
+  "uniform/closetlog": {
+   "neutral": "case37/closetlog_bust.webp"
+  },
+  "uniform/halloran": {
+   "neutral": "case37/halloran_bust.webp",
+   "nervous": "case37/halloran_bust_nervous.webp",
+   "thinking": "case37/halloran_bust_thinking.webp"
+  },
+  "uniform/ivers": {
+   "neutral": "case37/ivers_bust.webp",
+   "nervous": "case37/ivers_bust_nervous.webp",
+   "sad": "case37/ivers_bust_sad.webp",
+   "thinking": "case37/ivers_bust_thinking.webp"
+  },
+  "uniform/mensah": {
+   "neutral": "case37/mensah_bust.webp",
+   "nervous": "case37/mensah_bust_nervous.webp",
+   "sad": "case37/mensah_bust_sad.webp",
+   "thinking": "case37/mensah_bust_thinking.webp"
+  },
+  "liars/lena": {
+   "neutral": "case38/lena_bust.webp",
+   "nervous": "case38/lena_bust_nervous.webp",
+   "sad": "case38/lena_bust_sad.webp"
+  },
+  "liars/ole": {
+   "neutral": "case38/ole_bust.webp",
+   "happy": "case38/ole_bust_happy.webp",
+   "nervous": "case38/ole_bust_nervous.webp",
+   "sad": "case38/ole_bust_sad.webp"
+  },
+  "liars/sato": {
+   "neutral": "case38/sato_bust.webp",
+   "happy": "case38/sato_bust_happy.webp",
+   "nervous": "case38/sato_bust_nervous.webp",
+   "thinking": "case38/sato_bust_thinking.webp"
+  },
+  "liars/vance": {
+   "neutral": "case38/vance_bust.webp",
+   "nervous": "case38/vance_bust_nervous.webp",
+   "thinking": "case38/vance_bust_thinking.webp"
+  },
+  "stub/bianchi": {
+   "neutral": "case39/bianchi_bust.webp",
+   "nervous": "case39/bianchi_bust_nervous.webp",
+   "sad": "case39/bianchi_bust_sad.webp",
+   "thinking": "case39/bianchi_bust_thinking.webp"
+  },
+  "stub/galloway": {
+   "neutral": "case39/galloway_bust.webp",
+   "happy": "case39/galloway_bust_happy.webp",
+   "nervous": "case39/galloway_bust_nervous.webp",
+   "thinking": "case39/galloway_bust_thinking.webp"
+  },
+  "stub/nyberg": {
+   "neutral": "case39/nyberg_bust.webp",
+   "happy": "case39/nyberg_bust_happy.webp",
+   "nervous": "case39/nyberg_bust_nervous.webp",
+   "sad": "case39/nyberg_bust_sad.webp"
+  },
+  "lantern/albrecht": {
+   "neutral": "case40/albrecht_bust.webp",
+   "happy": "case40/albrecht_bust_happy.webp",
+   "nervous": "case40/albrecht_bust_nervous.webp"
+  },
+  "lantern/lindahl": {
+   "neutral": "case40/lindahl_bust.webp",
+   "happy": "case40/lindahl_bust_happy.webp",
+   "nervous": "case40/lindahl_bust_nervous.webp",
+   "thinking": "case40/lindahl_bust_thinking.webp"
+  },
+  "lantern/pereira": {
+   "neutral": "case40/pereira_bust.webp",
+   "happy": "case40/pereira_bust_happy.webp",
+   "nervous": "case40/pereira_bust_nervous.webp",
+   "sad": "case40/pereira_bust_sad.webp",
+   "thinking": "case40/pereira_bust_thinking.webp"
+  },
+  "lantern/rune": {
+   "neutral": "case40/rune_bust.webp",
+   "happy": "case40/rune_bust_happy.webp",
+   "nervous": "case40/rune_bust_nervous.webp",
+   "sad": "case40/rune_bust_sad.webp"
   }
  },
  "packs": {
@@ -2095,7 +2292,7 @@
   "case7": "packs/case7.cd343021.json",
   "case8": "packs/case8.146f92ee.json",
   "case9": "packs/case9.47b4471e.json",
-  "icons": "packs/icons.6b919545.json",
+  "icons": "packs/icons.e397510e.json",
   "promo": "packs/promo.7078a3ce.json",
   "case14": "packs/case14.e51a92e7.json",
   "case15": "packs/case15.a49c44f7.json",
@@ -2118,7 +2315,12 @@
   "case32": "packs/case32.63d0e48d.json",
   "case33": "packs/case33.9b8e7953.json",
   "case34": "packs/case34.e65e7049.json",
-  "case35": "packs/case35.fe360947.json"
+  "case35": "packs/case35.fe360947.json",
+  "case36": "packs/case36.a252c869.json",
+  "case37": "packs/case37.fd121f17.json",
+  "case38": "packs/case38.abdc408d.json",
+  "case39": "packs/case39.aaf9559d.json",
+  "case40": "packs/case40.eec78b82.json"
  },
- "thumbs": "packs/thumbs.5f125e2c.json"
+ "thumbs": "packs/thumbs.98a05d4d.json"
 }

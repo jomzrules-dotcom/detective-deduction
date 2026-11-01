@@ -812,6 +812,29 @@
   "tag/yusuf": {
    "neutral": "case29/yusuf_full.webp",
    "nervous": "case29/yusuf_full_nervous.webp"
+  },
+  "openkey/achebe": {
+   "neutral": "case30/achebe_full.webp",
+   "nervous": "case30/achebe_full_nervous.webp"
+  },
+  "openkey/delphine": {
+   "neutral": "case30/delphine_full.webp",
+   "nervous": "case30/delphine_full_nervous.webp"
+  },
+  "openkey/kwame": {
+   "neutral": "case30/kwame_full.webp",
+   "nervous": "case30/kwame_full_nervous.webp"
+  },
+  "openkey/ribeiro": {
+   "neutral": "case30/ribeiro_full.webp",
+   "nervous": "case30/ribeiro_full_nervous.webp"
+  },
+  "openkey/roofgate": {
+   "neutral": "case30/roofgate_full.webp"
+  },
+  "openkey/yilmaz": {
+   "neutral": "case30/yilmaz_full.webp",
+   "nervous": "case30/yilmaz_full_nervous.webp"
   }
  },
  "portraits": {
@@ -1794,6 +1817,37 @@
    "nervous": "case29/yusuf_bust_nervous.webp",
    "sad": "case29/yusuf_bust_sad.webp",
    "thinking": "case29/yusuf_bust_thinking.webp"
+  },
+  "openkey/achebe": {
+   "neutral": "case30/achebe_bust.webp",
+   "happy": "case30/achebe_bust_happy.webp",
+   "nervous": "case30/achebe_bust_nervous.webp",
+   "sad": "case30/achebe_bust_sad.webp"
+  },
+  "openkey/delphine": {
+   "neutral": "case30/delphine_bust.webp",
+   "nervous": "case30/delphine_bust_nervous.webp",
+   "sad": "case30/delphine_bust_sad.webp",
+   "thinking": "case30/delphine_bust_thinking.webp"
+  },
+  "openkey/kwame": {
+   "neutral": "case30/kwame_bust.webp",
+   "happy": "case30/kwame_bust_happy.webp",
+   "nervous": "case30/kwame_bust_nervous.webp"
+  },
+  "openkey/ribeiro": {
+   "neutral": "case30/ribeiro_bust.webp",
+   "happy": "case30/ribeiro_bust_happy.webp",
+   "nervous": "case30/ribeiro_bust_nervous.webp",
+   "thinking": "case30/ribeiro_bust_thinking.webp"
+  },
+  "openkey/roofgate": {
+   "neutral": "case30/roofgate_bust.webp"
+  },
+  "openkey/yilmaz": {
+   "neutral": "case30/yilmaz_bust.webp",
+   "nervous": "case30/yilmaz_bust_nervous.webp",
+   "thinking": "case30/yilmaz_bust_thinking.webp"
   }
  },
  "packs": {
@@ -1810,7 +1864,7 @@
   "case7": "packs/case7.cd343021.json",
   "case8": "packs/case8.146f92ee.json",
   "case9": "packs/case9.47b4471e.json",
-  "icons": "packs/icons.7f81a85c.json",
+  "icons": "packs/icons.902b4324.json",
   "promo": "packs/promo.7078a3ce.json",
   "case14": "packs/case14.e51a92e7.json",
   "case15": "packs/case15.a49c44f7.json",
@@ -1827,7 +1881,8 @@
   "case26": "packs/case26.c36cbaf9.json",
   "case27": "packs/case27.00c12888.json",
   "case28": "packs/case28.243675f8.json",
-  "case29": "packs/case29.8a945fc1.json"
+  "case29": "packs/case29.8a945fc1.json",
+  "case30": "packs/case30.1e92f17f.json"
  },
  "thumbs": "packs/thumbs.a8b116c8.json"
 }

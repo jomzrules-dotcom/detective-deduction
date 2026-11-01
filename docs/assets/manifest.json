@@ -20,7 +20,11 @@
   "lobby": "case22/bg.webp",
   "subway": "case23/bg.webp",
   "toyfloor": "case24/bg.webp",
-  "rooftop": "case26/bg.webp"
+  "rooftop": "case26/bg.webp",
+  "traindining": "case31/bg.webp",
+  "corridor": "case32/bg.webp",
+  "platform": "case33/bg.webp",
+  "baggage": "case34/bg.webp"
  },
  "icons": {
   "bag": "icons/bag.webp",
@@ -94,7 +98,13 @@
   "stick": "icons/stick.webp",
   "canoe": "icons/canoe.webp",
   "pumpkin": "icons/pumpkin.webp",
-  "rose": "icons/rose.webp"
+  "rose": "icons/rose.webp",
+  "punch": "icons/punch.webp",
+  "timetable": "icons/timetable.webp",
+  "train": "icons/train.webp",
+  "snowglobe": "icons/snowglobe.webp",
+  "snow": "icons/snow.webp",
+  "suitcase": "icons/suitcase.webp"
  },
  "figures": {
   "bag/ana": {
@@ -835,6 +845,94 @@
   "openkey/yilmaz": {
    "neutral": "case30/yilmaz_full.webp",
    "nervous": "case30/yilmaz_full_nervous.webp"
+  },
+  "punch/benji": {
+   "neutral": "case31/benji_full.webp",
+   "nervous": "case31/benji_full_nervous.webp"
+  },
+  "punch/castillo": {
+   "neutral": "case31/castillo_full.webp",
+   "nervous": "case31/castillo_full_nervous.webp"
+  },
+  "punch/kaur": {
+   "neutral": "case31/kaur_full.webp",
+   "nervous": "case31/kaur_full_nervous.webp"
+  },
+  "punch/novak": {
+   "neutral": "case31/novak_full.webp",
+   "nervous": "case31/novak_full_nervous.webp"
+  },
+  "punch/szabo": {
+   "neutral": "case31/szabo_full.webp",
+   "nervous": "case31/szabo_full_nervous.webp"
+  },
+  "punch/timetable": {
+   "neutral": "case31/timetable_full.webp"
+  },
+  "tunnel/amadi": {
+   "neutral": "case32/amadi_full.webp",
+   "nervous": "case32/amadi_full_nervous.webp"
+  },
+  "tunnel/dahl": {
+   "neutral": "case32/dahl_full.webp",
+   "nervous": "case32/dahl_full_nervous.webp"
+  },
+  "tunnel/ferreira": {
+   "neutral": "case32/ferreira_full.webp",
+   "nervous": "case32/ferreira_full_nervous.webp"
+  },
+  "tunnel/park": {
+   "neutral": "case32/park_full.webp",
+   "nervous": "case32/park_full_nervous.webp"
+  },
+  "snow/aalto": {
+   "neutral": "case33/aalto_full.webp",
+   "nervous": "case33/aalto_full_nervous.webp"
+  },
+  "snow/lindgren": {
+   "neutral": "case33/lindgren_full.webp",
+   "nervous": "case33/lindgren_full_nervous.webp"
+  },
+  "snow/mila": {
+   "neutral": "case33/mila_full.webp",
+   "nervous": "case33/mila_full_nervous.webp"
+  },
+  "snow/quist": {
+   "neutral": "case33/quist_full.webp",
+   "nervous": "case33/quist_full_nervous.webp"
+  },
+  "snow/tess": {
+   "neutral": "case33/tess_full.webp",
+   "nervous": "case33/tess_full_nervous.webp"
+  },
+  "suitcase/abara": {
+   "neutral": "case34/abara_full.webp",
+   "nervous": "case34/abara_full_nervous.webp"
+  },
+  "suitcase/baglist": {
+   "neutral": "case34/baglist_full.webp"
+  },
+  "suitcase/haugen": {
+   "neutral": "case34/haugen_full.webp",
+   "nervous": "case34/haugen_full_nervous.webp"
+  },
+  "suitcase/rask": {
+   "neutral": "case34/rask_full.webp",
+   "nervous": "case34/rask_full_nervous.webp"
+  },
+  "change/cashbox": {
+   "neutral": "case35/cashbox_full.webp"
+  },
+  "change/eriksen": {
+   "neutral": "case35/eriksen_full.webp",
+   "nervous": "case35/eriksen_full_nervous.webp"
+  },
+  "change/holm": {
+   "neutral": "case35/holm_full.webp",
+   "nervous": "case35/holm_full_nervous.webp"
+  },
+  "change/slips": {
+   "neutral": "case35/slips_full.webp"
   }
  },
  "portraits": {
@@ -1848,6 +1946,139 @@
    "neutral": "case30/yilmaz_bust.webp",
    "nervous": "case30/yilmaz_bust_nervous.webp",
    "thinking": "case30/yilmaz_bust_thinking.webp"
+  },
+  "punch/benji": {
+   "neutral": "case31/benji_bust.webp",
+   "nervous": "case31/benji_bust_nervous.webp",
+   "sad": "case31/benji_bust_sad.webp",
+   "thinking": "case31/benji_bust_thinking.webp"
+  },
+  "punch/castillo": {
+   "neutral": "case31/castillo_bust.webp",
+   "happy": "case31/castillo_bust_happy.webp",
+   "nervous": "case31/castillo_bust_nervous.webp",
+   "sad": "case31/castillo_bust_sad.webp",
+   "thinking": "case31/castillo_bust_thinking.webp"
+  },
+  "punch/kaur": {
+   "neutral": "case31/kaur_bust.webp",
+   "happy": "case31/kaur_bust_happy.webp",
+   "nervous": "case31/kaur_bust_nervous.webp",
+   "sad": "case31/kaur_bust_sad.webp",
+   "thinking": "case31/kaur_bust_thinking.webp"
+  },
+  "punch/novak": {
+   "neutral": "case31/novak_bust.webp",
+   "happy": "case31/novak_bust_happy.webp",
+   "nervous": "case31/novak_bust_nervous.webp",
+   "thinking": "case31/novak_bust_thinking.webp"
+  },
+  "punch/szabo": {
+   "neutral": "case31/szabo_bust.webp",
+   "happy": "case31/szabo_bust_happy.webp",
+   "nervous": "case31/szabo_bust_nervous.webp",
+   "sad": "case31/szabo_bust_sad.webp",
+   "thinking": "case31/szabo_bust_thinking.webp"
+  },
+  "punch/timetable": {
+   "neutral": "case31/timetable_bust.webp"
+  },
+  "tunnel/amadi": {
+   "neutral": "case32/amadi_bust.webp",
+   "happy": "case32/amadi_bust_happy.webp",
+   "nervous": "case32/amadi_bust_nervous.webp",
+   "sad": "case32/amadi_bust_sad.webp",
+   "thinking": "case32/amadi_bust_thinking.webp"
+  },
+  "tunnel/dahl": {
+   "neutral": "case32/dahl_bust.webp",
+   "happy": "case32/dahl_bust_happy.webp",
+   "nervous": "case32/dahl_bust_nervous.webp",
+   "sad": "case32/dahl_bust_sad.webp",
+   "thinking": "case32/dahl_bust_thinking.webp"
+  },
+  "tunnel/ferreira": {
+   "neutral": "case32/ferreira_bust.webp",
+   "nervous": "case32/ferreira_bust_nervous.webp",
+   "thinking": "case32/ferreira_bust_thinking.webp"
+  },
+  "tunnel/park": {
+   "neutral": "case32/park_bust.webp",
+   "happy": "case32/park_bust_happy.webp",
+   "nervous": "case32/park_bust_nervous.webp",
+   "sad": "case32/park_bust_sad.webp",
+   "thinking": "case32/park_bust_thinking.webp"
+  },
+  "snow/aalto": {
+   "neutral": "case33/aalto_bust.webp",
+   "nervous": "case33/aalto_bust_nervous.webp",
+   "sad": "case33/aalto_bust_sad.webp",
+   "thinking": "case33/aalto_bust_thinking.webp"
+  },
+  "snow/lindgren": {
+   "neutral": "case33/lindgren_bust.webp",
+   "happy": "case33/lindgren_bust_happy.webp",
+   "nervous": "case33/lindgren_bust_nervous.webp",
+   "thinking": "case33/lindgren_bust_thinking.webp"
+  },
+  "snow/mila": {
+   "neutral": "case33/mila_bust.webp",
+   "happy": "case33/mila_bust_happy.webp",
+   "nervous": "case33/mila_bust_nervous.webp",
+   "sad": "case33/mila_bust_sad.webp",
+   "thinking": "case33/mila_bust_thinking.webp"
+  },
+  "snow/quist": {
+   "neutral": "case33/quist_bust.webp",
+   "happy": "case33/quist_bust_happy.webp",
+   "nervous": "case33/quist_bust_nervous.webp",
+   "sad": "case33/quist_bust_sad.webp"
+  },
+  "snow/tess": {
+   "neutral": "case33/tess_bust.webp",
+   "happy": "case33/tess_bust_happy.webp",
+   "nervous": "case33/tess_bust_nervous.webp",
+   "sad": "case33/tess_bust_sad.webp",
+   "thinking": "case33/tess_bust_thinking.webp"
+  },
+  "suitcase/abara": {
+   "neutral": "case34/abara_bust.webp",
+   "happy": "case34/abara_bust_happy.webp",
+   "nervous": "case34/abara_bust_nervous.webp",
+   "thinking": "case34/abara_bust_thinking.webp"
+  },
+  "suitcase/baglist": {
+   "neutral": "case34/baglist_bust.webp"
+  },
+  "suitcase/haugen": {
+   "neutral": "case34/haugen_bust.webp",
+   "happy": "case34/haugen_bust_happy.webp",
+   "nervous": "case34/haugen_bust_nervous.webp",
+   "sad": "case34/haugen_bust_sad.webp",
+   "thinking": "case34/haugen_bust_thinking.webp"
+  },
+  "suitcase/rask": {
+   "neutral": "case34/rask_bust.webp",
+   "happy": "case34/rask_bust_happy.webp",
+   "nervous": "case34/rask_bust_nervous.webp",
+   "sad": "case34/rask_bust_sad.webp"
+  },
+  "change/cashbox": {
+   "neutral": "case35/cashbox_bust.webp"
+  },
+  "change/eriksen": {
+   "neutral": "case35/eriksen_bust.webp",
+   "happy": "case35/eriksen_bust_happy.webp",
+   "nervous": "case35/eriksen_bust_nervous.webp",
+   "sad": "case35/eriksen_bust_sad.webp"
+  },
+  "change/holm": {
+   "neutral": "case35/holm_bust.webp",
+   "nervous": "case35/holm_bust_nervous.webp",
+   "thinking": "case35/holm_bust_thinking.webp"
+  },
+  "change/slips": {
+   "neutral": "case35/slips_bust.webp"
   }
  },
  "packs": {
@@ -1864,7 +2095,7 @@
   "case7": "packs/case7.cd343021.json",
   "case8": "packs/case8.146f92ee.json",
   "case9": "packs/case9.47b4471e.json",
-  "icons": "packs/icons.902b4324.json",
+  "icons": "packs/icons.6b919545.json",
   "promo": "packs/promo.7078a3ce.json",
   "case14": "packs/case14.e51a92e7.json",
   "case15": "packs/case15.a49c44f7.json",
@@ -1882,7 +2113,12 @@
   "case27": "packs/case27.00c12888.json",
   "case28": "packs/case28.243675f8.json",
   "case29": "packs/case29.8a945fc1.json",
-  "case30": "packs/case30.1e92f17f.json"
+  "case30": "packs/case30.1e92f17f.json",
+  "case31": "packs/case31.a715af78.json",
+  "case32": "packs/case32.63d0e48d.json",
+  "case33": "packs/case33.9b8e7953.json",
+  "case34": "packs/case34.e65e7049.json",
+  "case35": "packs/case35.fe360947.json"
  },
- "thumbs": "packs/thumbs.a8b116c8.json"
+ "thumbs": "packs/thumbs.5f125e2c.json"
 }
